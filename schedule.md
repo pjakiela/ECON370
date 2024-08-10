@@ -1,5 +1,6 @@
 # Course Schedule
 
+<br>
 
 |  Date  |  Topic  |
 | ------------ | ------- |
@@ -7,8 +8,7 @@
 | 9/11 | Data |
 | 9/13 | Exploratory Data Analysis |
 | 9/18 | Data Visualization |
-| 9/20 | Guest speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home) |
-|  | Head of Data Science & Analytics at Duolingo |
+| 9/20 | Guest speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
 | 9/18 | Data Visualization |
 | 9/25 | _Data visualization group meetings_ |
 | 9/27 | Data Visualization Project Presentations |
