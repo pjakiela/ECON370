@@ -1,0 +1,6 @@
+theme: jekyll-theme-minimal
+title: ECON 370
+logo: ejmr-network.jpg
+github:
+    is_project_page: false
+show_downloads: false
