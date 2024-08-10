@@ -1,6 +1,8 @@
-# Data Science for ECON  
+# Data Science for Economics  
 
 _This is the website for Professor Pamela Jakiela's ECON 370 course at Williams College, Data Science for Economic Analysis._  
+
+<br>
 
 ## Course Description:  
 
@@ -14,7 +16,7 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <!--[Reading List](https://pjakiela.github.io/ECON523/ECON-523-reading-list.pdf) -->
 
-<!--[Schedule](https://pjakiela.github.io/ECON370/schedule.html) --> 
+[Schedule](https://pjakiela.github.io/ECON370/schedule.html)  
 
 <br>
 
