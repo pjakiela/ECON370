@@ -21,10 +21,10 @@
 | 10/23 | Predicting Infant Mortality Presentations |
 | 10/25 | Using ML to Choose Covariates in RCTs |
 | 10/30 | Causal Forests |
-| 11/1 | Unsupervised Learning |
-| 11/6 | Text as Data |
+| 11/1 | K-Means Clustering |
+| 11/6 | Intro to Text as Data, Regular Expressions |
 | 11/8 | Web Scraping |
-| 11/13 | Counting Words |
+| 11/13 | Word Frequencies, Document-Term Matrices |
 | 11/15 | Clustering Documents |
 | 11/20 | Topic Models |
 | 11/22 | _Final project group meetings_ |
