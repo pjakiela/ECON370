@@ -12,13 +12,13 @@
 | 9/25 | _Data Visualization Group Meetings_ |
 | 9/27 | **Data Visualization Project Presentations** |
 | 10/2 | Numeric Approaches to OLS |
-| 10/4 | Cross-Validation and Subset Selection |
-| 10/9 | Regularization and Lasso |
+| 10/4 | Cross-Validation |
+| 10/9 | Subset Selection, Regularization, and Lasso |
 | 10/11 | Regression Trees and Random Forests |
 | 10/16 | _Predicting Infant Mortality Group Meetings_ |
 | 10/18 | _Mountain Day (possibly earlier)_ |
 | 10/23 | **Predicting Infant Mortality Presentations** |
-| 10/25 | Using ML to Choose Covariates in RCTs |
+| 10/25 | **Predicting Infant Mortality Presentations** |
 | 10/30 | Causal Forests |
 | 11/1 | K-Means Clustering |
 | 11/6 | Intro to Text as Data, Regular Expressions |
