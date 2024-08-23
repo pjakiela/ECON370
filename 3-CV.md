@@ -10,7 +10,7 @@
 
 ## Lecture 
 
-[Slides from Lecture 5](L5-CV-2024-08-20.pdf)
+[Slides from Lecture 5](https://pjakiela.github.io/ECON370/L5-CV-2024-08-20.pdf)
 
 <br>
 
