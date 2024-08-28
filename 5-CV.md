@@ -4,7 +4,7 @@
 
 ## Readings  
 
-[ISL](https://www.statlearning.com/) 5.1
+[Intro to Statistical Learning](https://www.statlearning.com/) 5.1
 
 <br>
 
