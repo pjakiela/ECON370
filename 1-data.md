@@ -16,7 +16,7 @@ and [12](https://rafalab.dfci.harvard.edu/dsbook-part-1/wrangling/joining-tables
 
 ## Lecture 
 
-[Slides from Lecture 1](https://pjakiela.github.io/ECON370/L1-2024-8-27.pdf)
+[Slides from Lecture 1](https://pjakiela.github.io/ECON370/L1-2024-08-27.pdf)
 
 <br>
 
