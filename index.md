@@ -14,13 +14,11 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <!-- [Syllabus](https://pjakiela.github.io/ECON523/ECON523-syllabus-2023-02-02.pdf) -->  
 
-<!--[Reading List](https://pjakiela.github.io/ECON523/ECON-523-reading-list.pdf) -->
-
 [Schedule](https://pjakiela.github.io/ECON370/schedule.html)  
+
+[Textbooks](https://pjakiela.github.io/ECON523/references.html) 
 
 <br>
 
-<!--## Additional Resources --> 
 
-<!--Williams ECON's [Stata tutorials](https://pjakiela.github.io/stata/)  -->
 
