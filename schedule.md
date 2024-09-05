@@ -5,7 +5,7 @@
 |  Date  |  Topic  |
 | ------------ | ------- |
 | 9/6 | Introduction |
-| 9/11 | Data |
+| 9/11 | [Data](https://pjakiela.github.io/ECON370/1-data.html) |
 | 9/13 | Exploratory Data Analysis |
 | 9/18 | Data Visualization |
 | 9/20 | Guest Speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
