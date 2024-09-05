@@ -9,17 +9,14 @@
 ## install packages / load libraries as needed and load libraries 
 ## you'll need at least tidyverse for R, numpy and pandas for Python
 
-install.packages("tidyverse") # comment out this line after you've installed the package once
-
-library(tidyverse)
-
 ## specify your file path by defining mypath as the path to your working directory for this lab
+
+
 
 ## R suggestion: mypath <- "[YOUR FILE PATH IN QUOTES]"
 ## Python suggestion: mypath = "[YOUR FILE PATH IN QUOTES]"
 
-setwd("[YOUR FILE PATH]")
-mypath <- "[YOUR FILE PATH]"
+
 
 # get the barro-lee data on educational attainment ---------------------------
 
@@ -33,7 +30,6 @@ mypath <- "[YOUR FILE PATH]"
 ## Python suggestion: mypath = pd.read_csv
 
 
-bldata <- read_csv(paste0(mypath,"\\data\\BL2013_MF1599_v2.2.csv"))
 
 ## how many observations are in the data set?  how many variables?  
 ## which variables are string (or character) variables?
