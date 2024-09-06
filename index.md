@@ -10,13 +10,13 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <br>
 
-## Fall 2024 Course Information:  
+## Course Information:  
 
-<!-- [Syllabus](https://pjakiela.github.io/ECON523/ECON523-syllabus-2023-02-02.pdf) -->  
+[Syllabus](https://pjakiela.github.io/ECON523/ECON370-syllabus-2024-09-05.pdf)  
 
 [Schedule](https://pjakiela.github.io/ECON370/schedule.html)  
 
-[Textbooks](https://pjakiela.github.io/ECON523/references.html) 
+[Textbooks](https://pjakiela.github.io/ECON370/references.html) 
 
 <br>
 
