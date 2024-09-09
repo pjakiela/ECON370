@@ -4,7 +4,7 @@
 
 |  Date  |  Topic  |
 | ------------ | ------- |
-| 9/6 | Introduction |
+| 9/6 | [Introduction](ECON370-L0-intro-handout.pdf) |
 | 9/11 | [Data](https://pjakiela.github.io/ECON370/1-data.html) |
 | 9/13 | Exploratory Data Analysis |
 | 9/18 | Data Visualization |
