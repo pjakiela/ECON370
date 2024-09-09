@@ -38,7 +38,7 @@ bldata <- read_csv(paste0(mypath,"\\data\\BL2013_MF1599_v2.2.csv"))
 ## how many observations are in the data set?  how many variables?  
 ## which variables are string (or character) variables?
 
-## R suggestions:  dim(), spec(), head(), summary() 
+## R suggestions:  dim(), glimpse(), head(), summary() 
 ## Python suggestions: type(), df.info, df.shape, df.columns, df.dtypes
 
 

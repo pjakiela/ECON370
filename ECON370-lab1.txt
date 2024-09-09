@@ -34,7 +34,7 @@
 ## how many observations are in the data set?  how many variables?  
 ## which variables are string (or character) variables?
 
-## R suggestions:  dim(), spec(), head(), summary() 
+## R suggestions:  dim(), glimpse(), head(), summary() 
 ## Python suggestions: type(), df.info, df.shape, df.columns, df.dtypes
 
 
