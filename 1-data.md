@@ -17,7 +17,7 @@ _These are useful references as opposed to required readings._
 
 ## Lecture 
 
-[Slides from Lecture 1](https://pjakiela.github.io/ECON370/L1-data-2024-09-04.pdf)
+[Slides from Lecture 1](https://pjakiela.github.io/ECON370/L1-data-2024-09-11.pdf)
 
 <br>
 
