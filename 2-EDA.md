@@ -18,7 +18,7 @@ _These are useful references as opposed to required readings._
 
 ## Lecture 
 
-[Slides from Lecture 2](https://pjakiela.github.io/ECON370/L2-EDA-2024-09-12.pdf)
+[Slides from Lecture 2](https://pjakiela.github.io/ECON370/ECON370-L2-EDA-2024-09-12.pdf)
 
 <br>
 
