@@ -1,0 +1,125 @@
+
+## ECON 370 LAB 2:  EXPLORATORY DATA ANALYSYS 
+## NAME:  
+## DATE:  
+
+
+# preliminaries ----------------------------------------------------------------
+
+## install packages / load libraries as needed and load libraries 
+## you'll need at least tidyverse for R, numpy and pandas for Python
+## R users will also want to install the package stargazer
+
+# install.packages("tidyverse")
+#install.packages("stargazer")
+
+library(tidyverse)
+library(stargazer)
+
+# file path --------------------------------------------------------------------
+
+## ONLY KEEP THE ONE OF THESE THAT IS RELEVANT FOR YOU!
+
+## R users:
+## specify your file path by defining yourpath as the path to your working directory for this lab
+## leave the rest as it is so that 
+
+username <- Sys.getenv("USERNAME")
+pjpath <- paste0("C:\\Users\\", username, "\\Dropbox\\ECON-370\\submissions\\labs\\lab2\\")
+
+yourpath <- "[YOUR FILE PATH]"
+
+mypath <- if_else(username == "pj" | username == "pjaki", pjpath, yourpath)
+
+## Python users:
+## specify your file path by defining yourpath as the path to your working directory for this lab
+## leave the rest as it is so that 
+
+username = os.getenv("USERNAME")
+pjpath = f"C:\\Users\\{username}\\Dropbox\\ECON-370\\submissions\\labs\\lab2\\"
+yourpath = f"[YOUR FILE PATH]"
+
+if username == "pj" or username == "pjaki":
+  mypath = pjpath
+else:
+  mypath = yourpath
+
+print(mypath)
+
+# load data --------------------------------------------------------------------
+
+## load the data set ECON370-provisions-transactions.csv
+## it contains data on all regular sales transactions at provisions between 
+##     2023-01-01 and 2024-06-30
+
+
+# data cleaning ----------------------------------------------------------------
+
+## based on your table and your exploration of the data, what cleaning would you do?
+## should any observations be dropped?
+## do any variables need to be modified?
+
+
+# summary statistics -----------------------------------------------------------
+
+## make a summary statistics table reporting the means, SDs, minima, maxima, and Ns 
+##    for all of the numeric variables in the data set.
+
+## Suggestion:  for this lab only, converting the variable names in your summary stats table 
+##    to read-able English words only counts for 1 point (out of 100)
+##    DON'T WASTE TIME DOING THAT UNTIL YOU'VE FINISHED EVERYTHING ELSE IN THE LAB!
+
+## R hint:  use stargazer! (make sure to convert your tibble to a data.frame first)
+## save the table as an 
+## set header and float to FALSE if you want to use my standalone latex table template
+## Python hint: describe the dataframe and transpose the results
+
+## submit your table as a latex/pdf or html using the templates provided on the web
+
+
+# visualizing transactions and sales -------------------------------------------
+
+## basic ggplot code to make a histogram + kernel density of transaction amounts
+ggplot(clean.prov, aes(amt.total)) + 
+  geom_histogram(aes(y = after_stat(density))) +
+  geom_density()
+
+## modify the code above to make your graph as close as possible to the one on the course web site
+## don't worry to much about matching the colors, just pick something vaguely similar
+
+
+## save your finished product
+
+ggsave(paste0(mypath, "ECON370-lab2-transactions-hist-YOURNAME.pdf"))
+
+## now make an additional histogram and kernel density where you aggregate transactions 
+##    into longer periods (e.g. days, weeks, or months) to show another aspect of the data
+## R hint:  look at the R4DS chapter on dates to get quick help on how to aggregate by date
+## Is it better to present this information on a log scale or a linear scale?  Why?
+
+
+
+# visualizing two variables ----------------------------------------------------
+
+## basic ggplot code to make a scatter plot of weekly gross sales totals and weekly total amounts received (revenues)
+##    along with a linear fit (method = "lm") and a non-parametric kernel regression fit
+
+ggplot(weekly.data, aes(x = weekly.gross, y = weekly.total)) + 
+  geom_point() +
+  geom_smooth() +
+  geom_smooth(method = "lm") +
+  scale_x_continuous(trans = "log", breaks = c(3500, 7000, 14000, 28000)) +
+  scale_y_continuous(trans = "log", breaks = c(3500, 7000, 14000, 28000)) 
+
+## adapt this code to make one of the following more interesting scatter plots:
+##    - total sales/revenues within a day/week/month and the # of transactions
+##    - comparing sales on two days within the same week (e.g. Friday vs. Saturday)
+##    - Comparing sales on Saturday vs. Sunday within the same weekend 
+##        (remembering that Sunday is day 1 of the next week)
+
+## make your graph look nice =)
+
+
+
+
+
