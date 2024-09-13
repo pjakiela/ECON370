@@ -32,6 +32,6 @@ You will upload a finished summary statistics table that is either a pdf produce
 
 As part of the lab, you will be asked to replicate the following graph:  
 
-![provisions-histogram](ECON370-lab2-transactions-hist.pdf)  
+![provisions-histogram](ECON370-transactions-hist.png)  
 
 When you finish the lab, you can upload it [here](https://www.gradescope.com/courses/854937/assignments/4954480/).  
