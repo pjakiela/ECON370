@@ -20,5 +20,8 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <br>
 
+## Projects:  
+
+[Data Visualization Project](ECON370-data-viz-project-public.pdf)
 
 
