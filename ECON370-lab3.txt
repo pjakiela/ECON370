@@ -1,0 +1,117 @@
+## ECON 370 LAB 3:  DATA VISUALIZATION 
+## NAME:  
+## DATE:  
+
+
+# preliminaries ----------------------------------------------------------------
+
+## install packages / load libraries as needed
+## there are quite a few new R packages that we'll be using in this lab
+
+# install.packages("tidyverse") # assuming you've got this installed
+install.packages("haven") # to load data in Stata's .dta form
+install.packages("fixest") # to run regressions w/ heteroskedasticty-robust SEs
+install.packages("broom") # to clean up regression results
+install.packages("ggokabeito") # to easily access the Okabe-Ito colorblind-friendly palette
+
+library(tidyverse)
+library(haven)
+library(fixest)
+library(broom)
+library(ggokabeito)
+
+## Or in Python: 
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt # graphs
+import seaborn as sns # graphs
+import os
+import statsmodels.api as sm # regressions
+import statsmodels.formula.api as smf # regressions
+
+## I like to load the Okabe-Ito colors by hand
+## Replace -< with equals signs for Python
+oigreen <- "#009E73"
+oiblue <- "#0072B2"
+oiverm <- "#D55E00"
+oipurple <- "#CC79A7"
+oiyellow <- "#F0E442"
+oiorange <- "#E69F00"
+
+
+## specify the file path to your folder for this lab
+## R and Python below, delete the one you are not using
+
+## In R:
+username <- Sys.getenv("USERNAME")
+pjpath <- paste0("C:/Users/", username, "/Dropbox/ECON-370/topics/3a-visualization/lab/")
+yourpath <- "[YOUR FILE PATH]"
+mypath <- if_else(username == "pj" | username == "pjaki", pjpath, yourpath)
+
+## In Python:
+
+username = os.getenv("USERNAME")
+pjpath = f"C:/Users/{username}/Dropbox/ECON-370/topics/3a-visualization/lab/py/"
+yourpath = f"C:/Users/{username}/Dropbox/ECON-370/topics/3a-visualization/lab/py/"
+
+if username == "pj" or username == "pjaki":
+    mypath = pjpath
+else:
+    mypath = yourpath
+
+print(mypath)
+
+
+# load data --------------------------------------------------------------------
+
+## obtain the stata data file gemdata.dta from the replication files for 
+##   "A Firm of One's Own:  Experimental Evidence on Credit Constraints and Occupational Choice"
+##   which are available from the Harvard dataverse here:
+##   https://dataverse.harvard.edu/file.xhtml?fileId=10361258&version=1.0
+
+## select the variables characterizing randomly-assigned treatments (control, gem, cash)
+##   as well as the variables indicating whether someone was self-employed in each survey round
+##   (y1_selfemp, y2_selfemp, y6_selfemp)
+
+## generate a treatment column in your data frame / tibble that takes on the values 
+##   Control, Franchise, and Grant where Franchise is the GEM treatment and Grant is the cash treatment
+
+## R hint:  read_dta() from the haven package
+## Python hint:  pd.read_stata()
+
+
+# run regressions --------------------------------------------------------------------
+
+## to run regressions with heteroskedasticity-robust standard errors 
+##   (which is the only kind worth running!) we cannot use lm()
+##   There are many ways to do this, but I recommend using feols() from the fixest package
+
+
+## this command will run a regression of Y1_selfemp on the dummies for the gem and cash treatments
+##   generating heteroskedasticity-robust SEs (identical to stata's robust option)
+##   NOTE: you'll get an alert indicating that some observations were dropped because of missing data
+##   these are individuals who attritors (attrittors?) who did not complete the follow-up surveys
+
+## In R: y1.ols <- feols(y1_selfemp ~ gem + cash, vcov = "HC1", data = gemdata)
+## In Python:  y1_ols = smf.ols('y1_selfemp ~ gem + cash', data=gemdata).fit(cov_type='HC1')
+
+
+## R hint: you can then use broom's tidy() command to store a nice little tibble of results from y1.ols
+## Python hint:  define a data frame of results which are in y1_ols.params, y1_ols.bse, y1_ols.pvalues
+
+## extend the code to do this for the Year 2 and Year 6 data as well, combine the tibbles, and 
+##   create a character/string variable indicating whether results are from Year 1, Year 2, or Year 3
+
+## Once you combine the results into a single data frame, you will also need to create two additional columns:
+##   the upper and lower limits of the 95% confidence interval, which are 
+##   the coefficient - 1.96*SE and the coefficient + 1.96*SE
+
+
+# make your graph --------------------------------------------------------------------
+
+## Now try to replicate my graph.
+## Set the default aesthetics: label is on the x axis, estimate is on the y axis, 
+##   term is the fill aesthetic (so the bars are different colors for the two treatments)
+
+
