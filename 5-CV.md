@@ -5,6 +5,7 @@
 ## Readings  
 
 [Intro to Statistical Learning](https://www.statlearning.com/) 5.1  
+  
 _You do not need to read Section 5.1.5 discussing the use of cross-validation for classification problems._
 
 <br>
