@@ -10,7 +10,7 @@
 
 ## Lecture 
 
-<! --[Slides from Lecture 4](https://pjakiela.github.io/ECON370/L4-OLS.pdf) -->
+<!-- [Slides from Lecture 4](https://pjakiela.github.io/ECON370/L4-OLS.pdf) -->
 
 <br>
 
