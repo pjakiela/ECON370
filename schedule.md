@@ -11,10 +11,10 @@
 | 9/20 | Guest Speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
 | 9/25 | _Data Visualization Group Meetings_ |
 | 9/27 | **[Data Visualization Project Presentations](https://www.gradescope.com/courses/854937/assignments/5050064/)** |
-| 10/2 | Numerical Approaches to OLS |
-| 10/4 | Cross-Validation |
-| 10/9 | Subset Selection, Regularization, and Lasso |
-| 10/11 | Regression Trees and Random Forests |
+| 10/2 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
+| 10/4 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
+| 10/9 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso.html) |
+| 10/11 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/7-trees.html) |
 | 10/16 | _Predicting Infant Mortality Group Meetings_ |
 | 10/18 | _Mountain Day (possibly earlier)_ |
 | 10/23 | **Predicting Infant Mortality Presentations** |
