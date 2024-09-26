@@ -10,7 +10,7 @@
 | 9/18 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) |
 | 9/20 | Guest Speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
 | 9/25 | _Data Visualization Group Meetings_ |
-| 9/27 | **Data Visualization Project Presentations** |
+| 9/27 | **[Data Visualization Project Presentations](https://www.gradescope.com/courses/854937/assignments/5050064/)** |
 | 10/2 | Numerical Approaches to OLS |
 | 10/4 | Cross-Validation |
 | 10/9 | Subset Selection, Regularization, and Lasso |
