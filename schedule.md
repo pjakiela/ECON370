@@ -11,7 +11,7 @@
 | 9/20 | Guest Speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
 | 9/25 | _Data Visualization Group Meetings_ |
 | 9/27 | **Data Visualization Project Presentations** |
-| 10/2 | Numeric Approaches to OLS |
+| 10/2 | Numerical Approaches to OLS |
 | 10/4 | Cross-Validation |
 | 10/9 | Subset Selection, Regularization, and Lasso |
 | 10/11 | Regression Trees and Random Forests |
