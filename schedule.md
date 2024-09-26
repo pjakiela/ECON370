@@ -20,7 +20,7 @@
 | 10/23 | **Predicting Infant Mortality Presentations** |
 | 10/25 | **Predicting Infant Mortality Presentations** |
 | 10/30 | Causal Forests |
-| 11/1 | K-Means Clustering |
+| 11/1 | k-Means Clustering |
 | 11/6 | Intro to Text as Data, Regular Expressions |
 | 11/8 | Web Scraping |
 | 11/13 | Word Frequencies, Document-Term Matrices |
