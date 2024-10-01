@@ -1,0 +1,66 @@
+
+## ECON 370 LAB 4:  OLS 
+## NAME:  
+## DATE:  
+
+
+# preliminaries ----------------------------------------------------------------
+
+## set the seed (set.seed() in R and np.random.seed() in Python)
+
+
+# bivariate OLS, no constant ---------------------------------------------------
+
+## Step 1:  generate a data set
+##   - set a datasize parameter to 200
+##   - generate X = a vector of 200 draws from a standard normal
+##   - generate Y = 2X + a normal error with mean = 0 and sd = 8 (so no constant)
+##   - put X and Y in a data frame or tibble called data
+
+## R: rnorm(N, mean, sd) generates a vector of N draws from the normal distribution
+## R: define X as a matrix rather than a data frame so that we can matrix multiply it later
+## Python:  np.random.normal() generates a vector of N draws from the normal distribution
+
+
+## Step 2:  regress Y on X and save the results
+## No need to worry about robust standard errors
+## Use lm() in R and sm.OLS() in Python
+
+
+## Step 3: calculate the OLS coefficient betahat "by hand" 
+##    using the formula on slide 10
+
+
+## Step 4: find betahat by finding the candidate beta that minimizes the RSS
+##   - Define beta_min and beta_min as the limits of your search window from -10 to 10
+##   - set beta_steps = 100000
+##   - Define trial_betas as a sequence of beta_steps from beta_min to beta_max
+## R: you can use seq(), make trial_betas a matrix for later matrix multiplication
+## Python: you can use np.linspace().reshape(-1, 1)
+
+
+## Step 5: define a function RSS(beta) that (1) multiplies X times a candidate beta 
+##    and then (2) calculates, squares, and sums the residuals
+## R: use sapply() to apply the RSS function to each element in the vector trial_betas
+
+
+## Step 6: create a data frame or tibble of the trial beta values and associated RSSs,
+##   then find the value of beta that minimizes the RSS
+
+
+## Step 7: find the optimal beta using numerical optimization
+##  - first, define a 1x1 vector of starting values of 0
+##  - R: use optim() and your RSS function to find the minimizing betas
+##  - Python: use scipi.optimize's minimize() 
+
+
+# multivariate regression ---------------------------------------------------
+
+## Replicate Steps 1, 2, 4, 5, and 7 to find the OLS coefficients when 
+##    datasize = 2000
+##    X has six columns (X1 through X6) all of which are standard normals
+##    Y = 2*X1 + 3*X2 + a standard normal error term
+##    You want to run an OLS regression of Y on X including a constant
+## Define a vector check that indicates whether the parameter estimates from 
+##    numerical optimization are within 0.001 of the OLS coefficients
+
