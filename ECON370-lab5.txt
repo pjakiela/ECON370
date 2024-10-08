@@ -1,0 +1,64 @@
+
+## ECON 370 LAB 5:  CROSS-VALIDATION 
+## NAME:  
+## DATE:  
+
+
+# preliminaries ----------------------------------------------------------------
+
+
+
+# load data --------------------------------------------------------------------
+
+
+# setup --------------------------------------------------------------------
+
+## define datasize as the number of rows in your data set
+
+
+## add a row data_id that is indicates the row number in the original data set
+
+
+# define max_order, the maximum number of polynomial terms to consider (set it to 8)
+
+
+# define num_folds (we'll use 10)
+
+
+# create a fold_id vector that is max_order copies of 1 followed by max_order copies of 2, etc... 
+#   up to the final fold
+
+
+# create a poly_id (for the number of polynomial terms used) that is a sequence from 1 to max_order 
+#   repeated num_fold times in a column vector
+
+
+# create 3 blank (NA) vectors train_mse, test_mse, and check_mse that are max_order * numbfolds by 1
+
+
+# set the seed and randomly assign each observation to a fold
+
+
+# now do the cross-validation, looping through the folds
+
+  
+  # split into training (fold != n) and test (fold == n) data sets 
+  
+  # loop through the number of polynomial terms to include (1 up to max_order)
+  
+    # run ols on the training data including i polynomial terms of log gdp
+    
+    # define j to indicate the row where you will write the MSEs
+    
+    # update train_mse in row j
+    
+    # calculate the MSE in the test data, write it to row j of test_mse
+    
+  # calculate the MSE in the training data using your test data formula, write it to row j of check_mse
+  
+  
+# define kcv, a data frame or tibble containinf fold_id, poly_id, train_mse, test_mse, and check_mse
+# group the data by poly_id to calculate the mean k-fold CV test MSE for each number of polynomial terms
+
+# make a scatter plot of the degree of polynomial on the x-axis and the test MSE on the y-axis
+# save your graph as a pdf 
