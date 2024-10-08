@@ -12,7 +12,7 @@ _You do not need to read Section 5.1.5 discussing the use of cross-validation fo
 
 ## Lecture 
 
-[Slides from Lecture 5](https://pjakiela.github.io/ECON370/L5-CV-2024-handout.pdf)  
+[Slides from Lecture 5](https://pjakiela.github.io/ECON370/ECON370-L5-CV-2024-handout.pdf)  
 
 <br>
 
