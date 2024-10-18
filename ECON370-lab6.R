@@ -1,0 +1,151 @@
+
+## ECON 370 LAB 6:  LASSO 
+## NAME:  
+## DATE:  
+
+
+# step 0: preliminaries ----------------------------------------------------------------
+
+#install.packages("tidyverse")
+#install.packages("glmnet") # needed for lasso/ridge regression and cross-validation
+#install.packages("hdm") # needed for data-driven "rigorous" lasso of Belloni et al.
+
+library(tidyverse)
+library(glmnet)
+library(hdm)
+
+
+# step 1: load data --------------------------------------------------------------------
+
+## load lab6data from the ECON 370 github page, the file ECON370-lab6-data.csv
+## this is data on N = 200 children included in the EMERGE study
+## familiarize yourself with the data
+
+urlfile <- 'https://raw.githubusercontent.com/pjakiela/ECON370/refs/heads/gh-pages/ECON370-lab6-data.csv'
+lab6data <- read_csv(urlfile)
+
+
+# step 2: prepare data ---------------------------------------------------------------
+
+## define Y as the literacy column from lab5data
+
+
+
+## enumerator and strata are IDs for the surveyor and the randomization stratum
+## generate dummy variables for these (fundamentally categorical) variables
+
+## R hint: I do this by converting a variable to character format w/ as.character()
+##     and then using x_dummies <- model.matrix(~x - 1, df) to define dummies for 
+##     the set of values of the variable x in the data frame df
+
+
+
+## define a data frame X that combines lab6data and the strata and enumerator dummies
+## drop literacy (your Y variable) and (character variables) enumerator and strata 
+## R users, make X a matrix (so that you can run lasso)
+
+
+
+
+# step 3: OLS ---------------------------------------------------------------
+
+## run an OLS regression of Y on X
+## which variables are statistically significant predictors of literacy (95% level)?
+## which variable has the lowest p-value? 
+## what is the OLS coefficient associated with that variable?
+
+
+
+# step 4: lasso and ridge regression -----------------------------------------
+
+# step 4a (Python only):  rescaling the Xs -----------------------------------
+
+# step 4b:  actually fitting ridge and lasso ---------------------------------
+
+## Here is code for estimating a ridge regression with a very low value 
+## of the tuning parameter (lambda in lecture, ISL, and R; alpha in Python)
+
+## How does the ridge coefficient on the variable with the lowest OLS p-value
+##    compare to the OLS coefficient?
+
+ridge_low <- glmnet(X, Y, alpha = 0, lambda = 10^-3)
+coef(ridge_low)
+ridge_low$beta[12]
+
+## Estimate a ridge regression with a higher tuning/penalty parameter of 1
+## Make sure to set the seed immediately before estimating the model
+## How does the coefficient on the variable of interest (from above) change?
+
+
+
+## Now estimate lasso by setting the alpha (R) or l1_ratio (Python) to 1
+## Set the tuning parameter back to 0.0001
+## Which variables are included in the model?
+
+
+
+## Now estimate lasso with a tuning parameter of 1
+## Which variables are included in the model now?
+
+
+
+
+# step 5: cross-validation -----------------------------------------
+
+## cv.glmnet() in R and LassoCV in Python estimate cross-validated lasso
+
+## define a grid of tuning parameter values to try 
+grid <- 10^seq(0, -3, length = 100)
+
+## set the seed and fit cross-validated lasso
+
+## R users:
+##    cv.glmnet takes the same arguements as glmnet
+##    use grid as your lambda
+##    define lass_cv as the lasso model that you fit
+##    type plot(lasso_cv) afterward to see MSE as a function of lambda
+
+
+## save your graph as a pdf 
+
+
+
+# step 6: the tuning parameter that minimizes test MSE --------------------------
+
+## What value of the tuning parameter minimizes test MSE? 
+## You can access this parameter using lasso_cv$lambda.min in R or lasso_cv.alpha_ in Python
+
+
+
+## At this value of the tuning parameter, which variables are included in the model?
+## R users:  use predict(lasso_cv, type = "coefficients", s = [your lambda value]) 
+
+
+
+# step 7: the 1SE tuning parameter --------------------------------------------
+
+## which variables are included in the model if you use a tuning parameter that is 
+##     1 SE higher than the MSE-minimizing one? 
+
+## R users:  this value is stored as lasso_cv$lambda.1se
+
+
+## use the code from step 4 to estimate lasso with this tuning parameter
+
+
+
+# step 8: data-driven lasso of Belloni et al. --------------------------------
+
+## R users: you can access the data-driven lasso model using rlasso()
+## the formula is Y ~ X, and set post = FALSE
+## use summary() to look at the results
+## which variables are included in the model?
+
+
+# step 9 (optional): adding noise variables -----------------------------------
+
+## add 50 additional X variables that are iid standard normals
+## run lasso
+## how many are chosen using the CV-selected tuning parameter?
+
+
