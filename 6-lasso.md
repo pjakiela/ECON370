@@ -18,6 +18,6 @@
 
 ## Lab
 
-The objective is to use lasso to select covariates for the EMERGE project.  We will use a [data set](ECON370-lab6-data.csv) containing 200 observations of 25 variables representing household characteristics and measures of child development.  
+The objective is to use lasso to select covariates for the EMERGE project.  We will use a [data set](ECON370-lab6-data.csv) containing 200 observations of 25 variables representing household characteristics and measures of child development.  Additional information on the study is available [here](https://pjakiela.github.io/research/EMERGE-registered-report-accepted.pdf).  
 
 For this lab, the R and Python implementions are not identical; Python requires the user to handle a number of steps that are done under the hood in R.  I therefore recommend using either [the R version](ECON370-lab6.R) or [the Python version](ECON370-lab6.py) of the lab template rather than than [the generic version](ECON370-lab6.txt).  
