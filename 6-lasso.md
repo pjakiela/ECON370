@@ -12,7 +12,7 @@
 
 ## Lecture 
 
-<!-- [Slides from Lecture 6](https://pjakiela.github.io/ECON370/L6-lasso-2024-handout.pdf) -->
+[Slides from Lecture 6](https://pjakiela.github.io/ECON370/L6-lasso-2024-handout.pdf)  
 
 <br>
 
