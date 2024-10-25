@@ -10,7 +10,7 @@
 
 ## Lecture 
 
-<!-- [Slides from Lecture 7](https://pjakiela.github.io/ECON370/ECON370-L7-trees-2024-handout.pdf) -->
+[Slides from Lecture 7](https://pjakiela.github.io/ECON370/ECON370-L7-trees-2024-handout.pdf)  
 
 <br>
 
