@@ -19,7 +19,7 @@
 | 10/18 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso.html) |
 | 10/23 | [Lab: Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso.html) |
 | 10/25 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/7-trees.html) |
-| 10/30 | Causal Forests  |
+| 10/30 | [Causal Forests](https://pjakiela.github.io/ECON370/8-causal-forests.html)  |
 | 11/1 | _Predicting Infant Mortality Group Meetings_ |
 | 11/6 | **Predicting Infant Mortality Presentations** |
 | 11/8 | **Predicting Infant Mortality Presentations** |
