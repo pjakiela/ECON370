@@ -23,9 +23,9 @@
 | 11/1 | _Predicting Infant Mortality Group Meetings_ |
 | 11/6 | **Predicting Infant Mortality Presentations** |
 | 11/8 | **Predicting Infant Mortality Presentations** |
-| 11/13 | k-Means Clustering |
-| 11/15 | Intro to Text as Data, Regular Expressions, Web Scraping |
-| 11/20 | Word Frequencies, Document-Term Matrices, Topic Models |
+| 11/13 | [Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/9-regex.html) |
+| 11/15 | Word Frequencies, tf-idf  |
+| 11/20 | Sentiments, Document-Term Matrices, k-Means Clustering |
 | 11/22 | _Final Project Group Meetings_ |
 | 11/27 | _Thanksgiving Break_ |
 | 11/29 | _Thanksgiving Break_ |
