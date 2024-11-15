@@ -24,7 +24,7 @@
 | 11/6 | **Predicting Infant Mortality Presentations** |
 | 11/8 | **Predicting Infant Mortality Presentations** |
 | 11/13 | [Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/9-regex.html) |
-| 11/15 | Word Frequencies, tf-idf  |
+| 11/15 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html)  |
 | 11/20 | Sentiments, Document-Term Matrices, k-Means Clustering |
 | 11/22 | _Final Project Group Meetings_ |
 | 11/27 | _Thanksgiving Break_ |
