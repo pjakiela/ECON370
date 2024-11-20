@@ -12,7 +12,7 @@
 
 ## Lecture 
 
-[Slides from Lecture 11](https://pjakiela.github.io/ECON370/ECON370-L11-kmeans-2024-handout.pdf)  
+[Slides from Lecture 11](https://pjakiela.github.io/ECON370/ECON370-L11-kmeans-handout-2024.pdf)  
 
 <br>
 
