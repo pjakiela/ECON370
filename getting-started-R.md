@@ -19,8 +19,35 @@ fixest is a package that allows you to run economics-style regressions including
 Before loading any data into R, read [Chapter 2 in R for Data Science](https://r4ds.hadley.nz/workflow-basics.html). Work through the examples in the reading. Make sure 
 that you understand how to define new objects using the assignment operator `<-` and how to add comments to your code.  
 
+## Loading Data
 
-## Readings  
+The R script below loads the tidyverse and haven libraries, defines a filepath, and loads a data set directly from the web. 
+```
+# ECON 370: GETTING STARTED IN R
+
+# preliminaries ----------------------------------------------------------------
+
+## libraries
+
+## if you have not already done so, install these packages
+#install.packages("tidyverse")
+#install.packages("haven") # to load data in Stata's .dta form
+
+library(tidyverse)
+library(haven)
+
+## file path
+mypath <- "C:/Users/me/Dropbox/ECON-370/"
+
+## load data
+urlfile <- "https://raw.githubusercontent.com/barrolee/BarroLeeDataSet/master/BLData/BL2013_MF1599_v2.2.dta"
+bl <- read_dta(urlfile)
+```
+
+Copy this example into a new R script on your computer and run the code. You can do this by selecting the code 
+and then pressing Ctrl+Enter.
+
+## Additional Readings  
 
 _These are useful references as opposed to required readings._
 
