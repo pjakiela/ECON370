@@ -5,8 +5,8 @@
 ## Download R and RStudio
 
 Download R and RStudio from the [posit](https://posit.co/download/rstudio-desktop/) website. Once you've done this, 
-read the [Introduction to the 2nd edition of R for Data Science](https://r4ds.hadley.nz/intro.html#rstudio), focusing on the second half which begins 
-with the regions of the RStudio interface.  
+read the [Introduction to the 2nd edition of R for Data Science](https://r4ds.hadley.nz/intro.html#rstudio), focusing on the second half beginning with the part where 
+they explain the different regions of the RStudio interface.  
 
 Open RStudio on your computer. Install the [tidyverse](https://www.tidyverse.org/), [haven](https://haven.tidyverse.org/), and 
 [fixest](https://lrberge.github.io/fixest/) packages, which we will use all the time. The tidyverse is a suite of tools for modern data analysis in R, and 
