@@ -9,8 +9,10 @@ read the [Introduction to the 2nd edition of R for Data Science](https://r4ds.ha
 they explain the different regions of the RStudio interface.  
 
 Open RStudio on your computer. Install the [tidyverse](https://www.tidyverse.org/), [haven](https://haven.tidyverse.org/), and 
-[fixest](https://lrberge.github.io/fixest/) packages, which we will use all the time. The tidyverse is a suite of tools for modern data analysis in R, and 
-it includes the packages and functions we'll use to clean data and define new variables, make graphs, and work with text data. The [tidyverse](https://www.tidyverse.org/) 
+[fixest](https://lrberge.github.io/fixest/) packages, which we will use all the time. The Introduction to R for Data Science provides instructions 
+on how to install packages and load libraries. The tidyverse is a suite of tools for modern data analysis in R. It includes 
+the packages and functions we'll use to clean data and define new variables ([dplyr](https://dplyr.tidyverse.org/)), 
+make graphs ([ggplot2](https://ggplot2.tidyverse.org/)), and work with text data ([stringr](https://stringr.tidyverse.org/)). The [tidyverse](https://www.tidyverse.org/) 
 website has a number of helpful cheatsheets that you may want to download. Haven is a tool for reading Stata (and SPSS and SAS) data sets into R, and 
 fixest is a package that allows you to run economics-style regressions including fixed effects and robust or clustered standard errors.  
 
