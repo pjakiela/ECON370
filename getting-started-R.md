@@ -46,6 +46,10 @@ bl <- read_dta(urlfile)
 
 Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (It is technically a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
 
+The data you have loaded is part of the Barro-Lee Educational Attainment Data Set, which contains information on the education level 
+of adults in over 140 countries. It is the most widely used data source documenting the rise in educational attainment that has taken place over 
+the last century.  
+
 <br>
 
 ## Familiarizing Yourself with the Data
@@ -62,25 +66,38 @@ You can read the number of rows and columns in the data frame `bl` from the envi
 and the number of variables is the number of columns. To familiarize yourself with any data frame `df`, the commands `dim(df)`, `head(df)`, and `glimpse(df)` 
 are also useful. `dim(df)` reports the the dimensions of `df`. `head(df)` prints a data frame containing the first six rows of `df`. `glimpse(df)` lists the names of the columns (i.e. variables) and their associated data types (typically either double, which indicates that the column contains a numeric variable, or character).  
 
+Using only these functions, you should be able to answer questions 1 through 5, above.  
+
 ### Missing Values
 
-The command `summary(df)` will provide a summary of the numeric variables contained in the data frame `df`, including the means, medians, minima, maxima, and counts of missing values. If you **just** want to check for missing values, you can also use the following:
-```
-apply(is.na(bl), 2, sum)
-```
-`is.na(bl)` generates a numeric array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. `apply()` tells R to apply the `sum()` function to the columns of the data frame `is.na(bl)`. (If you wanted to instead sum the rows of `bl`, you could replace the 2 in the second argument of `apply()` with a 1 - though it is not clear why you would want to do that.) Another way to get a list of the number of missing values in each column of the data frame `bl` is to use the command:
+The command `summary(bl)` will provide a summary of the numeric variables contained in the data frame `bl`, including the means, medians, minima, maxima, and counts of missing values. If you **just** want to check for missing values, you can also use the following:
 ```
 colSums(is.na(bl))
 ```
-These two approaches - using `apply()` and using `colSums()` - will give you exactly the same output.
-
-Looking at the data frame `bl`, which variables do you think are categorical, and how are they stored? 
+`is.na(bl)` generates an array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. (An array is a type of data frame where all the variables are of the same type, typically numeric.) As you might expect, `colSums(df)` sums the columns in the data frame `df`.
 
 ### Summarizing Numeric Variables 
 
-One way to display the means of the numeric variables in the data frame `bl` is to use `summary(bl)`, as described above. This will print the means as well as the medians, minima, maxima, etc. Sometimes this is too much information. If you **only** want to see the means of the numeric 
+One way to display the means of the numeric variables in the data frame `bl` is to use `summary(bl)`, as described above. This will print the means as well as the medians, minima, maxima, etc. Sometimes this is too much information. If you only want the mean of a single variable, for example the mean of `year` in the Barro-Lee data set, you can use:
+```
+mean(bl$year)
+```
+So, to get the mean of any column `x` in data frame `df`, you can always use `mean(df$x)`. This also works with other functions: for example, 
+`min()`, `max()`, `sd()`, `sum()`. You can also use the `df$x` syntax in other ways - it always refers to the column named `x` in data frame `df`.  
 
-### Summarizing Categorical Variables
+If you want to see the means of **all** the numeric variables in the `bl` data frame, you could use the `colMeans()` function, which is closely related to the `colSums()` function described above:
+```
+colMeans(select_if(bl, is.numeric))
+```
+Notice that you need select the columns of that data frame `bl` that are numeric, since `colMeans()` can't calculate the mean of a string variable. Another approach is 
+to use `summarize()`:
+```
+summarize(bl, across(where(is.numeric), mean, na.rm = TRUE))
+```
+
+### Tabulating Values
+
+It is often helpful to tabulate the most common values of a variable in a data set. 
 
 <br>
 
