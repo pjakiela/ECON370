@@ -32,7 +32,7 @@ The R script below loads the tidyverse and haven libraries and loads a Stata dat
 
 ## libraries
 
-##install these packages if needed
+## install these packages if needed
 #install.packages("tidyverse")
 #install.packages("haven") 
 
@@ -44,7 +44,28 @@ urlfile <- "https://raw.githubusercontent.com/barrolee/BarroLeeDataSet/master/BL
 bl <- read_dta(urlfile)
 ```
 
-Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. If you type the command `bl` into the console pane in the lower left, R will list the first few rows of the data frame `bl`.
+Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (It is technically a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
+
+<br>
+
+## Familiarizing Yourself with the Data
+
+Whenever you load data into R, you should explore it enough to answer the following questions:
+1. How many observations are in the data frame?
+2. How many variables are in the data frame?
+3. What are the names of the variables?
+4. Which variables are numeric and which are strings?
+5. Which variables are actually categorical, and how are they stored?
+6. Is there missing data? Where?
+
+You can read the number of rows and columns in the data frame `bl` from the environment tab in the upper right. The number of observations is the number of rows, 
+and the number of variables is the number of columns. To familiarize yourself with any data frame `df`, the commands `dim(df)`, `head(df)`, and `glimpse(df)` 
+are also useful. `dim(df)` reports the the dimensions of `df`. `head(df)` prints a data frame containing the first six rows of `df`. `glimpse(df)` lists the names of the columns (i.e. variables) and their associated data types (typically either double, which indicates that the column contains a numeric variable, or character).  
+
+
+Means
+
+<br>
 
 ## Additional Readings  
 
