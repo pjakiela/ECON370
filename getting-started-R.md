@@ -20,6 +20,8 @@ economics-style regressions including fixed effects and robust or clustered stan
 Before loading any data into R, read [Chapter 2 in R for Data Science](https://r4ds.hadley.nz/workflow-basics.html). Work through the examples in the reading. Make sure 
 that you understand how to add comments to your code and how to define new objects using the assignment operator `<-`.  
 
+<br>
+
 ## Loading Data
 
 The R script below loads the tidyverse and haven libraries and loads a Stata data set directly from the web. 
@@ -30,9 +32,9 @@ The R script below loads the tidyverse and haven libraries and loads a Stata dat
 
 ## libraries
 
-## if you have not already done so, install these packages
+##install these packages if needed
 #install.packages("tidyverse")
-#install.packages("haven") # to load data in Stata's .dta form
+#install.packages("haven") 
 
 library(tidyverse)
 library(haven)
