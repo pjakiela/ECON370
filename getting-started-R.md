@@ -62,6 +62,14 @@ You can read the number of rows and columns in the data frame `bl` from the envi
 and the number of variables is the number of columns. To familiarize yourself with any data frame `df`, the commands `dim(df)`, `head(df)`, and `glimpse(df)` 
 are also useful. `dim(df)` reports the the dimensions of `df`. `head(df)` prints a data frame containing the first six rows of `df`. `glimpse(df)` lists the names of the columns (i.e. variables) and their associated data types (typically either double, which indicates that the column contains a numeric variable, or character).  
 
+The command `summary(df)` will provide a summary of the numeric variables contained in the data frame `df`, including the means, medians, minima, maxima, and counts of missing values. If you **just** want to check for missing values, you can also use the following:
+```
+apply(is.na(bl), 2, sum)
+```
+`is.na(bl)` generates a numeric array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. `apply()` tells R to apply the `sum()` function to the columns of the data frame `is.na(bl)`. If you wanted to instead sum the rows of `bl` (though it is not clear why you would want to do that), you could replace the 2 in the second argument of `apply()` with a `.
+
+Looking at the data frame `bl`, which variables do you think are categorical, and how are they stored? 
+
 
 Means
 
