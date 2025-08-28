@@ -94,20 +94,20 @@ to use `summarize()`:
 ```
 summarize(bl, across(where(is.numeric), mean, na.rm = TRUE))
 ```
+You can find out more about the built-in functions described above by accessing RStudio's internal help files. For instance, to pull up the help file about `summarize()`, you can type `?summarize()` in the lower right panel of RStudio.
 
 ### Tabulating Values
 
-It is often helpful to tabulate the most common values of a variable in a data set. 
+It is often helpful to tabulate the most common values of a variable in a data set. One easy way to do this is to use the `count()` function. For example, to tabulate the values of the `region_code` variable in `bl`, you could type:
+```
+count(bl, region_code)
+```
+As you can see, `count()` takes two arguments: the first argument is the data frame and the second argument is the variable (or column). This is different than functions like `mean()` that take a single column (`df$column`) as the argument. When you use the code above
 
 <br>
 
-## Questions
-
-1. How many observations are there in the data data frame `bl`?
-
 ## Additional Readings  
 
-_These are useful references as opposed to required readings._
 
 [R for Data Science](https://r4ds.hadley.nz/): [7](https://r4ds.hadley.nz/data-import), [5](https://r4ds.hadley.nz/data-tidy), and [19](https://r4ds.hadley.nz/joins)  
 
