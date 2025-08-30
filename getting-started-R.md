@@ -74,7 +74,7 @@ The command `summary(bl)` will provide a summary of the numeric variables contai
 ```
 colSums(is.na(bl))
 ```
-`is.na(bl)` generates an array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. (An array is a type of data frame where all the variables are of the same type, typically numeric.) As you might expect, `colSums(df)` sums the columns in the data frame `df`.
+`is.na(bl)` generates an array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. (An array is a type of data frame where all the variables are of the same type, typically numeric.) As you might expect, `colSums(bl)` sums the columns in the data frame `bl`.
 
 ### Summarizing Numeric Variables 
 
