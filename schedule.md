@@ -4,20 +4,24 @@
 
 |  Date  |  Topic  |
 | ------------ | ------- |
-| 9/6 | [Introduction](ECON370-L0-intro-handout.pdf) |
-| 9/11 | [Data](https://pjakiela.github.io/ECON370/1-data.html) |
-| 9/13 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/2-EDA.html) |
-| 9/18 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) |
-| 9/20 | Guest Speaker:  [Bilal Zia](https://sites.google.com/site/decbilalzia/home), Head of Data Science & Analytics, Duolingo |
-| 9/25 | _Data Visualization Group Meetings_ |
-| 9/27 | **[Data Visualization Project Presentations](https://www.gradescope.com/courses/854937/assignments/5050064/)** |
-| 10/2 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
-| 10/4 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
-| 10/9 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
-| 10/11 | _Mountain Day_ |
-| 10/16 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
-| 10/18 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso.html) |
-| 10/23 | [Lab: Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso.html) |
+| 9/5 | [Introduction](ECON370-L0-intro-handout-2025.pdf) |
+| 9/8 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
+| 9/10 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
+| 9/12 | [Unsupervised Learning]() |
+| 9/15 | [Lab: Unsupervised Learning]() |
+| 9/17 | [Data Visualization]() | |
+| 9/19 | _Exploratory Data Analysis Project Group Meetings_ |
+| 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/3-ols-2025.html) |
+| 9/24 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/3-ols-2025.html) |
+| 9/26 | **Exploratory Data Analysis Project Presentations** |
+| 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/4-CV-2025.html) |
+| 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/4-CV-2025.html) |
+| 10/3 | _No class: possible Mountain Day_ |
+| 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/5-RCTs-2025.html) |
+| 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
+| 10/10 | _No class: possible Mountain Day_ |
+
+| 10/23 | [Lab: Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
 | 10/25 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/7-trees.html) |
 | 10/30 | [Causal Forests](https://pjakiela.github.io/ECON370/8-causal-forests.html)  |
 | 11/1 | _Predicting Infant Mortality Group Meetings_ |
