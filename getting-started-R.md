@@ -44,7 +44,7 @@ urlfile <- "https://raw.githubusercontent.com/barrolee/BarroLeeDataSet/master/BL
 bl <- read_dta(urlfile)
 ```
 
-Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (`read_dta` loads the data as a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
+Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (`read_dta()` loads the data as a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
 
 The data you have loaded is part of the Barro-Lee Educational Attainment Data Set, which contains information on the education level 
 of adults in over 140 countries. It is the most widely used data source documenting the rise in educational attainment that has taken place over 
@@ -82,8 +82,8 @@ One way to display the means of the numeric variables in the data frame `bl` is 
 ```
 mean(bl$year)
 ```
-So, to get the mean of any column `x` in data frame `df`, you can always use `mean(df$x)`. This also works with other functions: for example, 
-`min()`, `max()`, `sd()`, `sum()`. You can also use the `df$x` syntax in other ways - it always refers to the column named `x` in data frame `df`.  
+To get the mean of any column `x` in data frame `df`, you can always use `mean(df$x)`. This also works with other functions: for example, 
+`min()`, `max()`, `sd()`, `sum()`. `df$x` is R's way of pointing to the column named `x` in data frame `df`.   
 
 If you want to see the means of **all** the numeric variables in the `bl` data frame, you could use the `colMeans()` function, which is closely related to the `colSums()` function described above:
 ```
@@ -102,7 +102,23 @@ It is often helpful to tabulate the most common values of a variable in a data s
 ```
 count(bl, region_code)
 ```
-As you can see, `count()` takes two arguments: the first argument is the data frame and the second argument is the variable (or column). This is different than functions like `mean()` that take a single column (`df$column`) as the argument. When you use the code above
+As you can see, `count()` takes two arguments: the first argument is the data frame and the second argument is the variable (or column). This is different than functions like `mean()` that take a single column (`df$column`) as the argument.  
+
+Notice that the output form `count(bl, region_code)` lists the regions in alphabetical order. You sometimes want to see the most common values listed first, particularly 
+when a variable can take on a large number of values. To do this, use `count()` with the `sort` option:
+```
+count(bl, region_code, sort = TRUE)
+```
+
+<br>
+
+## Next Steps
+
+At this point, you should feel comfortable reading data sets into R and exploring them. Before moving on to the first lab, 
+it is worth spending some time with [R for Data Science](https://r4ds.hadley.nz/), particularly chapters/sections 3, 4, 5, 6.1, 7, 19, and 20. There 
+is no need to read these chapters carefully; it is better to skim them so that you know where to look for help when you get stuck. If 
+[R for Data Science](https://r4ds.hadley.nz/) is not to your likeing, the first few chapters of 
+[Intro to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) are also great.  
 
 <br>
 
