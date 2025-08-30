@@ -19,8 +19,10 @@
 | 10/3 | _No class: possible Mountain Day_ |
 | 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/5-RCTs-2025.html) |
 | 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
+| 10/9 | _Economics Department Seminar: 4:00 PM_ |
 | 10/10 | _No class: possible Mountain Day_ |
-
+| 10/13 | _No class: reading period_ |
+| 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/7-pdslasso-2025.html) |
 | 10/23 | [Lab: Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
 | 10/25 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/7-trees.html) |
 | 10/30 | [Causal Forests](https://pjakiela.github.io/ECON370/8-causal-forests.html)  |
