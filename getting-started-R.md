@@ -44,7 +44,7 @@ urlfile <- "https://raw.githubusercontent.com/barrolee/BarroLeeDataSet/master/BL
 bl <- read_dta(urlfile)
 ```
 
-Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (It is technically a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
+Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (`read_csv()` loads the data as a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
 
 The data you have loaded is part of the Barro-Lee Educational Attainment Data Set, which contains information on the education level 
 of adults in over 140 countries. It is the most widely used data source documenting the rise in educational attainment that has taken place over 
