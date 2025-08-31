@@ -11,32 +11,39 @@
 | 9/15 | [Lab: Unsupervised Learning]() |
 | 9/17 | [Data Visualization]() | |
 | 9/19 | _Exploratory Data Analysis Project Group Meetings_ |
-| 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/3-ols-2025.html) |
-| 9/24 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/3-ols-2025.html) |
+| 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols-2025.html) |
+| 9/24 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols-2025.html) |
 | 9/26 | **Exploratory Data Analysis Project Presentations** |
-| 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/4-CV-2025.html) |
-| 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/4-CV-2025.html) |
+| 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV-2025.html) |
+| 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV-2025.html) |
 | 10/3 | _No class: possible Mountain Day_ |
-| 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/5-RCTs-2025.html) |
-| 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
+| 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs-2025.html) |
+| 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso-2025.html) |
 | 10/9 | _Economics Department Seminar: 4:00 PM_ |
 | 10/10 | _No class: possible Mountain Day_ |
 | 10/13 | _No class: reading period_ |
-| 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/7-pdslasso-2025.html) |
-| 10/23 | [Lab: Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/6-lasso-2025.html) |
-| 10/25 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/7-trees.html) |
-| 10/30 | [Causal Forests](https://pjakiela.github.io/ECON370/8-causal-forests.html)  |
-| 11/1 | _Predicting Infant Mortality Group Meetings_ |
-| 11/6 | **Predicting Infant Mortality Presentations** |
-| 11/8 | **Predicting Infant Mortality Presentations** |
-| 11/13 | [Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/9-regex.html) |
-| 11/15 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html)  |
-| 11/20 | [Sentiments, Document-Term Matrices, k-Means Clustering](https://pjakiela.github.io/ECON370/11-kmeans.html) |
-| 11/22 | _Final Project Group Meetings_ |
-| 11/27 | _Thanksgiving Break_ |
-| 11/29 | _Thanksgiving Break_ |
-| 12/4 | **Final Project Presentations** |
-| 12/6 | **Final Project Presentations** |
+| 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso-2025.html) |
+| 10/17 | _No class: possible Mountain Day_ |
+| 10/20 | [Lab: Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso-2025.html) |
+| 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/9-trees-2025.html) |
+| 10/24 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
+| 10/27 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
+| 10/29 | _Treatment Effect Heterogeneity Project Group Meetings_ |
+| 10/31 | _Treatment Effect Heterogeneity Project Group Meetings_ |
+| 11/3 | **Treatment Effect Heterogeneity Project Presentations** |
+| 11/5 | **Treatment Effect Heterogeneity Project Presentations** |
+| 11/7 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/11-regex-2025.html) |
+| 11/10 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
+| 11/12 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
+| 11/14 | [Guest Speaker: Professor Elliott Ash](https://elliottash.com/)  |
+| 11/17 | [Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
+| 11/19 | [Lab: Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
+| 11/21 | _Final Project Group Meetings_ |
+| 11/24 | _Final Project Group Meetings_ |
+| 11/26 | _Thanksgiving Break_ |
+| 11/28 | _Thanksgiving Break_ |
+| 12/1 | **Final Project Presentations** |
+| 12/3 | **Final Project Presentations** |
 
 <br>
 
