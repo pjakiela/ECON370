@@ -10,7 +10,7 @@ on the left. Once you've done this, you should be able to open spyder on your co
 Now stop and read sections 1.1 and 1.2 of [Using Python for Introductory Economics](https://www.urfie.net/downloads/PDF/UPfIE_web.pdf). The reading will explain 
 the setup of the spyder interface, which has a script editor window on the left and an interactive IPython window in the lower right. It will also introduce 
 [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/docs/index.html), the two main libraries that we will be working with throughout the 
-semester. [numpy](https://numpy.org/) (short for numerical python) 
+semester. [numpy](https://numpy.org/) (short for numerical Python) 
 is Python's scientific computing library, which allows you to define numerical arrays and do a range of 
 mathematical calculations. [pandas](https://pandas.pydata.org/docs/index.html) is the main data analysis library, 
 and almost all of the data manipulation that we do in this class will involve pandas data frames.
