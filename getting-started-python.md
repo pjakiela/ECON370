@@ -5,24 +5,24 @@
 ## Download Python and Spyder
 
 Download the Python distribution anaconda from the [anaconda](https://www.anaconda.com/download/success) website using the distribution installers links 
-on the left. Once you've done this, you should be able to open spyder on your computer (it is installed as part of the anaconda distribution). You should 
-see three panels within spyder. The one on the left is the script editor where you will write your python scripts, and the one on 
-the bottom right is the IPython console, where you can enter commands interactively. For example, if you type 
-```
-x = 2 + 5
-```
-in the IPython console and hit enter, you will see `x` appear in the Variable Explorer tab in the upper right. The command above 
-defined `x` as 7 (the sum of 2 and 5). Now, if you 
-type `x` into the IPython console and hit enter, it will report the output 7 (the value of `x`).
+on the left. Once you've done this, you should be able to open spyder on your computer (it is installed as part of the anaconda distribution).  
+
+Now stop and read sections 1.1 and 1.2 of [Using Python for Introductory Economics](https://www.urfie.net/downloads/PDF/UPfIE_web.pdf). The reading will explain 
+the setup of the spyder interface, which has a script editor window on the left and an interactive IPython window in the lower right. It will also introduce 
+[numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/docs/index.html), the two main libraries that we will be working with throughout the 
+semester. [numpy](https://numpy.org/) (short for numerical python) 
+is Python's scientific computing library, which allows you to define numerical arrays and do a range of 
+mathematical calculations. [pandas](https://pandas.pydata.org/docs/index.html) is the main data analysis library, 
+and almost all of the data manipulation that we do in this class will involve pandas data frames.
 
 <br>
 
 ## Loading Data
 
-The Python code below loads the [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/docs/index.html) 
-libraries and then loads a Stata data set directly from the web. 
+The Python script below imports [numpy](https://numpy.org/) and [pandas](https://pandas.pydata.org/docs/index.html) 
+and then loads a Stata data set directly from the web. 
 ```
-# ECON 370: GETTING STARTED IN R
+# ECON 370: GETTING STARTED IN Python
 
 # preliminaries ----------------------------------
 
@@ -34,11 +34,6 @@ import pandas as pd
 urlfile = 'https://raw.githubusercontent.com/barrolee/BarroLeeDataSet/master/BLData/BL2013_MF1599_v2.2.dta'
 bl = pd.read_stata(urlfile)
 ```
-
-[numpy](https://numpy.org/) (short for numerical python) 
-is Python's scientific computing library, which allows you to define numerical arrays and do a range of 
-mathematical calculations. [pandas](https://pandas.pydata.org/docs/index.html) is the main data analysis library, 
-and almost all of the data manipulation that we do in this class will involve pandas data frames.
 
 Copy this example into a new python script on your computer and run the code. Once you run the code, you should see the data frame `bl` listed in the `Variable Explorer` tab 
 in the upper right. If you enter `bl` in the IPython console in the lower right, Python will print the first and last rows of the data frame `bl`.  
