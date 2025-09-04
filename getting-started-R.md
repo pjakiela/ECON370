@@ -46,7 +46,8 @@ bl <- read_dta(urlfile)
 
 Copy this example into a new R script on your computer and run the code. The keyboard shortcut to open a new R script in RStudio is Ctrl + Shift + n. To run a piece of code, select it in the script editor and then hit Ctrl + Enter. Once you run the code, you should see the data frame `bl` listed in the `Environment` tab in the upper right. (`read_dta()` loads the data as a tibble, which is the tidyverse version of a data frame.) If you enter `bl` in the console pane in the lower left part of your screen, R will print the first few rows of the data frame `bl`.  
 
-The data you have loaded is part of the Barro-Lee Educational Attainment Data Set, which contains information on the education level 
+The data you have loaded is part of the [Barro-Lee Educational Attainment Data Set](http://barrolee.com/?page_id=99), 
+which contains information on the education level 
 of adults in over 140 countries. It is the most widely used data source documenting the rise in educational attainment that has taken place over 
 the last century.  
 
@@ -98,7 +99,7 @@ You can find out more about the built-in functions described above by accessing 
 
 ### Tabulating Values
 
-It is often helpful to tabulate the most common values of a variable in a data set. One easy way to do this is to use the `count()` function. For example, to tabulate the values of the `region_code` variable in `bl`, you could type:
+It is often helpful to tabulate the most common values of a variable in a data set. One easy way to do this is to use `count()`. For example, to tabulate the values of the `region_code` variable in `bl`, you could type:
 ```
 count(bl, region_code)
 ```
@@ -117,7 +118,7 @@ count(bl, region_code, sort = TRUE)
 At this point, you should feel comfortable reading data sets into R and exploring them. Before moving on to the first lab, 
 it is worth spending some time with [R for Data Science](https://r4ds.hadley.nz/), particularly chapters/sections 3, 4, 5, 6.1, 7, 19, and 20. There 
 is no need to read these chapters carefully; it is better to skim them so that you know where to look for help when you get stuck. If 
-[R for Data Science](https://r4ds.hadley.nz/) is not to your likeing, the first few chapters of 
+[R for Data Science](https://r4ds.hadley.nz/) is not to your liking, the first few chapters of 
 [Intro to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/) are also great.  
 
 <br>
