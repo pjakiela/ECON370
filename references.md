@@ -24,6 +24,8 @@
 
 ## Python-Specific  
 
+[Using Python for Introductory Econometrics](https://www.urfie.net/downloads/PDF/UPfIE_web.pdf) by Florian Heiss and Daniel Brunner  
+
 [An Introduction to Statistics with Python](https://link.springer.com/book/10.1007/978-3-030-97371-1) by Thomas Haslwanter  
 
 [Python for Data Analysis](https://wesmckinney.com/book/) by Wes McKinney  
