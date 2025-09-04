@@ -12,7 +12,7 @@ This course provides a hands-on introduction to data science tools most relevant
 
 ## Course Information:  
 
-[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2024-09-11.pdf)  
+[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2025-09-04.pdf)  
 
 [Schedule](https://pjakiela.github.io/ECON370/schedule.html)  
 
@@ -20,8 +20,11 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <br>
 
-## Projects:  
+## Getting Started in R and Python: 
 
-[Data Visualization Project](ECON370-data-viz-project-public.pdf)
+[Getting Started in R](https://pjakiela.github.io/ECON370/getting-started-R.html)   
 
+[Getting Started in Python](https://pjakiela.github.io/ECON370/getting-started-python.html)   
+
+<br>
 
