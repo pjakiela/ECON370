@@ -38,7 +38,7 @@ bl = pd.read_stata(urlfile)
 Copy this example into a new python script on your computer and run the code. Once you run the code, you should see the data frame `bl` listed in the `Variable Explorer` tab 
 in the upper right. If you enter `bl` in the IPython console in the lower right, Python will print the first and last rows of the data frame `bl`.  
 
-The data you have loaded is part of the Barro-Lee Educational Attainment Data Set, which contains information on the education level 
+The data you have loaded is part of the [Barro-Lee Educational Attainment Data Set](http://barrolee.com/?page_id=99), which contains information on the education level 
 of adults in over 140 countries. It is the most widely used data source documenting the rise in educational attainment that has taken place over 
 the last century.  
 
@@ -56,7 +56,7 @@ Whenever you load data into Python, you should explore it enough to answer the f
 
 You can read the number of rows and columns in the data frame `bl` from the `Variable Explorer` tab in the upper right. To familiarize yourself with any data frame `df`, 
 the commands `df.shape`, `df.head`, `df.columns`, and `df.dtypes` 
-are also useful. `df.shape` reports the the dimensions of `df`. `df.head` prints the first and last rows of `df`. `df.columns` lists the names of the columns (i.e. variables), and `df.dtypes` lists both the names of the columns and their associated data types (typically either `float`, which indicates that the column contains a numeric variable, or `object`, which indicates a string variable).  
+are also useful. `df.shape` reports the the dimensions of `df`. `df.head` prints the first rows of `df`. `df.columns` lists the names of the columns (i.e. variables), and `df.dtypes` lists both the names of the columns and their associated data types (typically either `float`, which indicates that the column contains a numeric variable, or `object`, which indicates a string variable).  
 
 Using only these tools, you should be able to answer questions 1 through 5, above.  
 
@@ -66,7 +66,7 @@ The command `bl.describe()` will provide a summary of the numeric variables cont
 ```
 bl.isna().sum()
 ```
-`bl.isna()` generates an array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. As you might expect, `.sum()` sums the columns in the data frame `bl`.
+`bl.isna()` generates an array with the same dimensions as the data frame `bl`, but each value in the data frame is an indicator equal to one (or TRUE) if the analogous position in `df` is a missing value. As you might expect, `sum()` sums the columns in the data frame `bl`.
 
 ### Summarizing Numeric Variables 
 
@@ -86,7 +86,7 @@ more or less always starts from 0, which takes some getting used to.)
 
 ### Tabulating Values
 
-It is often helpful to tabulate the most common values of a variable in a data set. One easy way to do this is to use the `value_counts()`. For example, to tabulate the values of the `region_code` variable in `bl`, you could type:
+It is often helpful to tabulate the most common values of a variable in a data set. One easy way to do this is to use `value_counts()`. For example, to tabulate the values of the `region_code` variable in `bl`, you could type:
 ```
 bl['region_code'].value_counts()
 ```
@@ -99,13 +99,17 @@ bl.region_code.value_counts()
 
 ## Next Steps
 
-At this point, you should feel comfortable reading data sets into Python and exploring them. 
+At this point, you should feel comfortable reading data sets into Python and exploring them. Before moving on to the first lab, 
+it is worth reading (or at least skimming) sections 1.3, 1.4, and 1.8 of 
+[Using Python for Introductory Economics](https://www.urfie.net/downloads/PDF/UPfIE_web.pdf). 1.3 explains how to load data into Python, 
+1.4 introduces [matplotlib](https://matplotlib.org/), the most widely used data visualization library. 1.8 introduces some more advanced concepts 
+like functions and loops.
 
 <br>
 
 ## Additional Readings  
 
-
+[Data Analysis Using Python](https://wesmckinney.com/book/)
 
 
 <br>
