@@ -4,7 +4,7 @@
 
 |  Date  |  Topic  |
 | ------------ | ------- |
-| 9/5 | [Introduction](ECON370-L0-intro-handout-2025.pdf) |
+| 9/5 | [Introduction](ECON370-L0-intro-2025-handout.pdf) |
 | 9/8 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
 | 9/10 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
 | 9/12 | [Unsupervised Learning]() |
