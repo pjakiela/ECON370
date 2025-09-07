@@ -4,12 +4,18 @@
 
 ## Readings  
 
-_These are useful references as opposed to required readings._
+[Fundamentals of Data Visualization](https://clauswilke.com/dataviz/index.html): [7](https://clauswilke.com/dataviz/histograms-density-plots.html), [12.1](https://clauswilke.com/dataviz/visualizing-associations.html)
 
-[R for Data Science](https://r4ds.hadley.nz/): [7](https://r4ds.hadley.nz/data-import), [5](https://r4ds.hadley.nz/data-tidy), and [19](https://r4ds.hadley.nz/joins)  
+[An Intro to Statistical Learning](https://www.statlearning.com/):  7.6   
 
-[Intro to Data Science](https://rafalab.dfci.harvard.edu/dsbook-part-1/): [2](https://rafalab.dfci.harvard.edu/dsbook-part-1/R/R-basics.html), [4](https://rafalab.dfci.harvard.edu/dsbook-part-1/R/tidyverse.html), 
-[6](https://rafalab.dfci.harvard.edu/dsbook-part-1/R/importing-data.html)  
+### Additional R References:
+
+[R for Data Science](https://r4ds.hadley.nz/): [7](https://r4ds.hadley.nz/data-import) on importing data, [5](https://r4ds.hadley.nz/data-tidy) on cleaning data, [10](https://r4ds.hadley.nz/eda) on exploratatory data analysis, and [19](https://r4ds.hadley.nz/joins) on merging data  
+
+[An Intro to Statistical Learning](https://www.statlearning.com/):  7.6   
+
+
+### Additional Python References:
 
 [An Intro to Stats with Python](https://link.springer.com/book/10.1007/978-3-030-97371-1):  2.1, 2.2, and 3.1  
 
