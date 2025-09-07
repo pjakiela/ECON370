@@ -4,4 +4,4 @@
 
 ## Readings  
 
-[An Intro to Statistical Learning](https://www.statlearning.com/):  12.1, 12.2, 12.4.1   
+[An Intro to Statistical Learning](https://www.statlearning.com/):  6.3, 12.1, 12.2, 12.4.1   
