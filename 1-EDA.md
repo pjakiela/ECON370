@@ -25,7 +25,7 @@
 
 ## Lecture 
 
-[Slides from Lecture 1](https://pjakiela.github.io/ECON370/ECON370-L1-data-2025-handout.pdf)
+[Slides from Lecture 1](https://pjakiela.github.io/ECON370/ECON370-L1-EDA-2025-handout.pdf)
 
 <br>
 
