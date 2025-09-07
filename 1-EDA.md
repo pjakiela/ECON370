@@ -17,6 +17,8 @@
 
 ### Additional Python References:
 
+[Using Python for Introductory Economics](https://www.urfie.net/downloads/PDF/UPfIE_web.pdf): 1
+
 [An Intro to Stats with Python](https://link.springer.com/book/10.1007/978-3-030-97371-1):  2.1, 2.2, and 3.1  
 
 <br>
