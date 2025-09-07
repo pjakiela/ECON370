@@ -5,10 +5,10 @@
 |  Date  |  Topic  |
 | ------------ | ------- |
 | 9/5 | [Introduction](ECON370-L0-intro-2025-handout.pdf) |
-| 9/8 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
-| 9/10 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA-2025.html) |
-| 9/12 | [Unsupervised Learning]() |
-| 9/15 | [Lab: Unsupervised Learning]() |
+| 9/8 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
+| 9/10 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
+| 9/12 | [Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) |
+| 9/15 | [Lab: Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) |
 | 9/17 | [Data Visualization]() | |
 | 9/19 | _Exploratory Data Analysis Project Group Meetings_ |
 | 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols-2025.html) |
