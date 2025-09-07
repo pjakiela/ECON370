@@ -1,4 +1,4 @@
-# 1 Data  
+# 1 Exploratory Data Analysis
 
 <br>
 
@@ -17,7 +17,7 @@ _These are useful references as opposed to required readings._
 
 ## Lecture 
 
-[Slides from Lecture 1](https://pjakiela.github.io/ECON370/L1-data-2024-09-11.pdf)
+[Slides from Lecture 1](https://pjakiela.github.io/ECON370/ECON370-L1-data-2025-handout.pdf)
 
 <br>
 
@@ -26,9 +26,10 @@ _These are useful references as opposed to required readings._
 Objective:  use both R and Python to combine country-level data on GDP per capita in 2010 from the 
 [World Bank's World Development Indicators](https://databank.worldbank.org/source/world-development-indicators) with 
 data on educational attainment in 2010 from the [Barro-Lee Educational Attainment Data Set](http://barrolee.com/), and then 
-summarize some of the variables in the combined data set.  
+explore and summarize some of the variables in the combined data set.  
 
-The assignment as [.txt](ECON370-lab1.txt), [.R](ECON370-lab1.R), and [.py](ECON370-lab1.py)  
+The assignment as [.R](ECON370-lab1-template.R), [.py](ECON370-lab1-template.py), and 
+a [google colab](https://colab.research.google.com/drive/12CSrU3y_4O1UvkPfyZfwCXJhHwuhSM-S?usp=sharing)    
 
 Submit your completed assignment on gradescope.  
 
