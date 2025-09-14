@@ -11,7 +11,7 @@ _These are useful references as opposed to required readings._
 [A Very Old Development Impact Blog Post Where David McKenzie Talks About Graphing Treatment Effects](https://blogs.worldbank.org/en/impactevaluations/tools-trade-graphing-impacts-standard-error-bars)  
 
 <br>
-
+<!-- 
 ## Lecture 
 
 [Slides from Lecture 3](https://pjakiela.github.io/ECON370/ECON370-L3-data-viz-2024-09-16.pdf)
@@ -27,3 +27,4 @@ As part of the lab, you will be asked to replicate the following graph:
 ![gem-results](ECON370-lab3-bars.png)  
 
 When you finish the lab, you can upload it [here]().  
+-->
