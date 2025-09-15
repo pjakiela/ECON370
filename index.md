@@ -20,6 +20,12 @@ This course provides a hands-on introduction to data science tools most relevant
 
 <br>
 
+## Projects:  
+
+[Exploratory Data Analysis Project](https://pjakiela.github.io/ECON370/EDA-project.html)  
+
+<br>
+
 ## Getting Started in R and Python: 
 
 [Getting Started in R](https://pjakiela.github.io/ECON370/getting-started-R.html)   
