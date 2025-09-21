@@ -15,10 +15,10 @@ R for Data Science: [25](https://r4ds.hadley.nz/functions)
 Python for Data Analysis: [3.2](https://wesmckinney.com/book/python-builtin#functions)  
 
 <br>
-<!--
+
 ## Lecture 
 
-[Slides from Lecture 4](https://pjakiela.github.io/ECON370/ECON370-L4-ols-2024-handout.pdf) 
+[Slides from Lecture 4](https://pjakiela.github.io/ECON370/ECON370-L4-ols-2025-handout.pdf) 
 
 <br>
 
@@ -37,6 +37,10 @@ The lab has eight steps:
 7. Find the beta that minimizes the RSS using R or Python's numerical minimization functions.
 8. Repeat the process for a multivariate regression.
 
-A text file outlining the steps in the lab is available [here](ECON370-lab4.txt).  
+The lab template is avaiable for 
+[R](ECON370-lab4-template.R) or 
+[Python](ECON370-lab4-template.py). 
 
--->
+<br>
+
+
