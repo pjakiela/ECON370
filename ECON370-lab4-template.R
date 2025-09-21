@@ -85,7 +85,7 @@ result
 ## Replicate Steps 1, 2, 5 + 7 to find the OLS coefficients when: 
 ##    datasize = 2000
 ##    X has six columns (X1 through X6) all of which are standard normals
-##    Y = 2*X1 + 3*X2 + a standard normal error term
+##    Y = 5 + 2*X1 + 3*X2 + a standard normal error term
 ##    You want to run an OLS regression of Y on X including a constant
 ## Define a vector check that indicates whether the parameter estimates from 
 ##    numerical optimization are within 0.001 of the OLS coefficients
