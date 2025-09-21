@@ -11,11 +11,11 @@
 | 9/15 | [Lab: Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) |
 | 9/17 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) | |
 | 9/19 | _Exploratory Data Analysis Project Group Meetings_ |
-| 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols-2025.html) |
-| 9/24 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols-2025.html) |
+| 9/22 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
+| 9/24 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
 | 9/26 | **Exploratory Data Analysis Project Presentations** |
-| 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV-2025.html) |
-| 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV-2025.html) |
+| 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
+| 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
 | 10/3 | _No class: possible Mountain Day_ |
 | 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs-2025.html) |
 | 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso-2025.html) |
