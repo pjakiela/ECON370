@@ -17,7 +17,7 @@
 | 9/29 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
 | 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
 | 10/3 | _No class: possible Mountain Day_ |
-| 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs-2025.html) |
+| 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html) |
 | 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso-2025.html) |
 | 10/9 | _Economics Department Seminar: 4:00 PM_ |
 | 10/10 | _No class: possible Mountain Day_ |
