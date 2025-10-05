@@ -1,4 +1,4 @@
-# 6 Potential Outcomes and Causal Inference  
+# 6 Potential Outcomes, Causal Inference, and Randomized Trials  
 
 <br>
 
