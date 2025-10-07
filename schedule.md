@@ -18,13 +18,13 @@
 | 10/1 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
 | 10/3 | _No class: possible Mountain Day_ |
 | 10/6 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html) |
-| 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso-2025.html) |
+| 10/8 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/9 | _Economics Department Seminar: 4:00 PM_ |
 | 10/10 | _No class: possible Mountain Day_ |
 | 10/13 | _No class: reading period_ |
-| 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso-2025.html) |
+| 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso.html) |
 | 10/17 | _No class: possible Mountain Day_ |
-| 10/20 | [Lab: Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso-2025.html) |
+| 10/20 | [Lab: Post Double Selection Lasso](https://pjakiela.github.io/ECON370/8-pdslasso.html) |
 | 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/9-trees-2025.html) |
 | 10/24 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
 | 10/27 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
