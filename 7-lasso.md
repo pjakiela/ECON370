@@ -10,7 +10,7 @@
 
 ## Lecture 
 
-[Slides from Lecture 6](https://pjakiela.github.io/ECON370/L7-lasso-2025-handout.pdf)   
+[Slides from Lecture 7](https://pjakiela.github.io/ECON370/L7-lasso-2025-handout.pdf)   
 
 <br>
 
