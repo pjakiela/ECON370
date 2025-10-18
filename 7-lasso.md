@@ -15,6 +15,8 @@ by Jacobus Cilliers, Nour Elashmawy, and David McKenzie
 
 [Slides from Lecture 7](https://pjakiela.github.io/ECON370/L7-lasso-2025-handout.pdf)   
 
+<br>
+
 ## Lab
 
 The lab is avaiable in [R](ECON370-lab7-template-2025.R) and [Python](ECON370-lab7-template-2025.py).
