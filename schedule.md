@@ -25,7 +25,7 @@
 | 10/15 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/17 | _No class: possible Mountain Day_ |
 | 10/20 | [Lab: Lasso and PDS Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
-| 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/9-trees-2025.html) |
+| 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
 | 10/24 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
 | 10/27 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
 | 10/29 | _Treatment Effect Heterogeneity Project Group Meetings_ |
