@@ -24,6 +24,8 @@ This course provides a hands-on introduction to data science tools most relevant
 
 [Exploratory Data Analysis Project](https://pjakiela.github.io/ECON370/EDA-project.html)  
 
+[Treatment Effect Heterogeneity Project](https://pjakiela.github.io/ECON370/HTE-project.html)
+
 <br>
 
 ## Getting Started in R and Python: 
