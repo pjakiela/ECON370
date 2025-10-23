@@ -23,7 +23,7 @@ library(fastDummies)
 
 ## file path
 username <- Sys.getenv("USERNAME")
-pjpath  <-  paste0("C:/Users/", username, "/Dropbox/ECON-370/archive/projects-2024/2-dhs/")
+pjpath  <-  paste0("C:/Users/", username, "/Dropbox/ECON-370/")
 
 
 # step 1: load Kenya 2014 births recode ---------------------------------------
@@ -46,7 +46,7 @@ dim(dhs)
 ## this code selects, renames, and in some cases cleans some key predictors
 
 ## select the following variables for use in your trees:
-##    hw70 (height-for age, the outcome of interest), 
+##    hw70 (height-for age, the outcome of interest), child sex, 
 ##    whether the child is a single birth or a twin/triplet,
 ##    child age in months, birth order, month of birth, year of birth, 
 ##    mother's age, urban/rural, water source, sanitary facilities, 
@@ -92,8 +92,6 @@ treedata$mom_age <- treedata$mom_age - (2014 - treedata$yob)
 treedata$twin = ifelse(treedata$b0 == 0, 0, 1)
 treedata  <- select(treedata, !b0)
 
-## birth interval cannot be NAN (first births), replace with median
-treedata$interval[is.na(treedata$interval)] <- median(treedata$interval, na.rm=TRUE)
 
 ## EXTEND THIS CODE TO DO ANY ADDITIONAL CLEANING THAT YOU CHOOSE: 
 
@@ -113,20 +111,9 @@ treedata$interval[is.na(treedata$interval)] <- median(treedata$interval, na.rm=T
 ##    then convert them to factors and from there to strings
 ##    then use fastDummies and dummy_cols() to convert them to dummies
 
-factor_cols <- c("mob", 
-                 "yob", 
-                 "sex",
-                 "location", 
-                 "water", 
-                 "toilet", 
-                 "power", 
-                 "HH_head_sex",
-                 "fuel", 
-                 "wealth_index", 
-                 "pob")
+## Hint: you will need to extend this code:
+factor_cols <- c("")
 
-#treedata <- treedata %>%
-#  mutate_if(is.labelled, ~ as_factor(.)) 
 treedata[factor_cols] <- lapply(treedata[factor_cols], as.character)
 treedata <- dummy_cols(treedata, select_columns = factor_cols, remove_selected_columns = TRUE)
 treedata[is.na(treedata)] <- 0
@@ -136,8 +123,6 @@ treedata[is.na(treedata)] <- 0
 
 ## assign 40 percent of the observations to the training data set
 
-set.seed(8675309)
-train <- sample(1:nrow(treedata), 0.4 * (nrow(treedata)))
 
 # step 5: OLS benchmark -------------------------------------------------------
 
@@ -146,24 +131,18 @@ train <- sample(1:nrow(treedata), 0.4 * (nrow(treedata)))
 ##        (you can do this by regressing Y on a constant in the training data)
 ##    2. running OLS with all the X variables in the training data
 
-ols_model <- lm(haz ~ ., treedata, subset = train)
-yhat_ols <- predict(ols_model, newdata = treedata[-train, ])
-haz_test <- unlist(treedata[-train, "haz"])
-ks_mse = mean((yhat_ols - haz_test)^2)
 
 
 # step 6: fitting a regression tree -------------------------------------------
 
 ## fit a simple regression tree using the training data and plot the output
-## use the tree to predict Y in the test data and calculate the test MSE
+## use the tree to predict Y in the test data and **calculate the test MSE**
 
 mytree <- tree(haz ~ ., treedata, subset = train)
 summary(mytree)
 plot(mytree)
 text(mytree, pretty = 0)
 
-yhat <- predict(mytree, newdata = treedata[-train, ])
-tree_mse = mean(as.numeric(unlist((yhat - haz_test)^2)))
 
 
 # step 7: fit a random forest -------------------------------------------------
@@ -185,9 +164,8 @@ dhs_rf <- randomForest(haz ~ .,
                            mtry = 12, 
                            importance = FALSE)
 dhs_rf
-yhat_rf <- predict(dhs_rf, newdata = treedata[-train, ])
-rf_mse = mean((yhat_rf - haz_test)^2)
-rf_mse
+
+
 
 
 # step 8: variable importance -------------------------------------------------

@@ -20,7 +20,7 @@ from sklearn.ensemble import (RandomForestRegressor as RF,
 
 ## file path
 username = os.getenv("USERNAME")
-pjpath = f"C:/Users/{username}/Dropbox/ECON-370/archive/projects-2024/2-dhs/"
+pjpath = f"C:/Users/{username}/Dropbox/ECON-370/"
 
 
 # step 1: load Kenya 2014 births recode ---------------------------------------
@@ -43,7 +43,7 @@ print(dhs.shape)
 ## this code selects, renames, and in some cases cleans some key predictors
 
 ## select the following variables for use in your trees:
-##    hw70 (height-for age, the outcome of interest), 
+##    hw70 (height-for age, the outcome of interest),  child sex,
 ##    whether the child is a single birth or a twin/triplet,
 ##    child age in months, birth order, month of birth, year of birth, 
 ##    mother's age, urban/rural, water source, sanitary facilities, 
