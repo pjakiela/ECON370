@@ -26,16 +26,16 @@
 | 10/17 | _No class: possible Mountain Day_ |
 | 10/20 | [Lab: Lasso and PDS Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
-| 10/24 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
-| 10/27 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
+| 10/24 | [Lab: Random Forests](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
+| 10/27 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
 | 10/29 | _Treatment Effect Heterogeneity Project Group Meetings_ |
-| 10/31 | _Treatment Effect Heterogeneity Project Group Meetings_ |
-| 11/3 | **Treatment Effect Heterogeneity Project Presentations** |
+| 10/31 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html) |
+| 11/3 |  _Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/5 | **Treatment Effect Heterogeneity Project Presentations** |
-| 11/7 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/11-regex-2025.html) |
-| 11/10 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
-| 11/12 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
-| 11/14 | [Guest Speaker: Professor Elliott Ash](https://elliottash.com/)  |
+| 11/7 | **Treatment Effect Heterogeneity Project Presentations** |
+| 11/10 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/11-regex-2025.html)  |
+| 11/12 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
+| 11/14 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
 | 11/17 | [Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
 | 11/19 | [Lab: Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
 | 11/21 | _Final Project Group Meetings_ |
