@@ -12,13 +12,12 @@
 # install.packages("fastDummies")
 # install.packages("tree")
 # install.packages("randomForest")
-# install.packages("gbm")
+
 
 library(tidyverse)
 library(haven)
 library(tree)
 library(randomForest)
-library(gbm)
 library(fastDummies)
 
 ## file path
