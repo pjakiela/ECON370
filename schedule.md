@@ -27,9 +27,9 @@
 | 10/20 | [Lab: Lasso and PDS Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/22 | [Regression Trees and Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
 | 10/24 | [Lab: Random Forests](https://pjakiela.github.io/ECON370/8-trees.html)  |
-| 10/27 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html)  |
+| 10/27 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html)  |
 | 10/29 | _Treatment Effect Heterogeneity Project Group Meetings_ |
-| 10/31 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/10-HTE-2025.html) |
+| 10/31 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html) |
 | 11/3 |  _Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/5 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/7 | **Treatment Effect Heterogeneity Project Presentations** |
