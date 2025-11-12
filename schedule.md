@@ -34,8 +34,8 @@
 | 11/5 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/7 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/10 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/10-regex.html)  |
-| 11/12 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
-| 11/14 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/12-text-2025.html)  |
+| 11/12 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html)  |
+| 11/14 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html)  |
 | 11/17 | [Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
 | 11/19 | [Lab: Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
 | 11/21 | _Final Project Group Meetings_ |
