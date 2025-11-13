@@ -18,3 +18,18 @@
 
 <br>
 
+## Lab 
+
+The objective of this lab is to adapt the template (available in [R](ECON370-lab11-2025-template.R) or [Python](ECON370-lab11-2025-template.py)) 
+to cluster NBER working papers from two programs based on the abstracts. The template does this for Development Economics and Labor Studies. You 
+must choose to different NBER programs. You should identify a (relatively) stable clustering that groups papers in a sensible way. You should extend the template 
+as needed to identify the best possible clustering, including at least some of the following:
+
+- Increasing the number of clusters
+- Including additional preprocessing or stemming to group related words
+- Using TF-IDF instead of term frequencies
+- Excluding any words that only appear in a single working paper
+- Clustering by principal components rather than term frequencies themselves
+
+<br>
+
