@@ -8,7 +8,7 @@
 
 [Text as Data in Economic Analysis](https://www.aeaweb.org/articles?id=10.1257/jep.20231365) by Tarek A. Hassan, Stephan Hollander, Aakash Kalyani, Laurence van Lent, Markus Schwedeler, and Ahmed Tahoun  
 
-## Additional References (Not Required)  
+##### Additional References (Not Required)  
 
 [Measuring Economic Policy Uncertainty](https://academic.oup.com/qje/article/131/4/1593/2468873) by Scott Baker, Nicholas Bloom, and Steven Davis  
 
