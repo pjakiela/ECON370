@@ -36,8 +36,8 @@
 | 11/10 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/10-regex.html)  |
 | 11/12 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html)  |
 | 11/14 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html)  |
-| 11/17 | [Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
-| 11/19 | [Lab: Sentiments, Document-Term Matrices, Clustering Documents](https://pjakiela.github.io/ECON370/13-kmeans-2025.html) |
+| 11/17 | [Characterizing Documents](https://pjakiela.github.io/ECON370/12-dictionaries.html) |
+| 11/19 | [Lab: Characterizing Documents](https://pjakiela.github.io/ECON370/12-dictionaries.html) |
 | 11/21 | _Final Project Group Meetings_ |
 | 11/24 | _Final Project Group Meetings_ |
 | 11/26 | _Thanksgiving Break_ |
