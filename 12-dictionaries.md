@@ -24,3 +24,11 @@
 
 <br>
 
+## Lab  
+
+Lab 12 uses [the same data set on NBER working papers from 2024](ECON370-NBER-data.csv) that we analyzed in Lab 11. In this lab, 
+you will measure document distance in terms of both cosine similarity and Euclidean distance, and then use these measures to indentify 
+similar papers and papers that are relatively unique. The template for the lab is available in [R](ECON370-lab12-template-2025.R) or [Python](ECON370-lab12-template-2025.py).  
+
+<br>
+
