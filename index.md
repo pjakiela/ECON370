@@ -12,25 +12,29 @@ This course provides a hands-on introduction to data science tools most relevant
 
 ## Course Information:  
 
-[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2025-09-04.pdf)  
+[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2025-09-04.pdf)   
 
-[Schedule](https://pjakiela.github.io/ECON370/schedule.html)  
+[Schedule](https://pjakiela.github.io/ECON370/schedule.html)   
 
-[Textbooks](https://pjakiela.github.io/ECON370/references.html) 
+[Textbooks](https://pjakiela.github.io/ECON370/references.html)  
 
 <br>
 
 ## Projects:  
 
-[Exploratory Data Analysis Project](https://pjakiela.github.io/ECON370/EDA-project.html)  
+[Exploratory Data Analysis Project](https://pjakiela.github.io/ECON370/EDA-project.html)   
 
-[Treatment Effect Heterogeneity Project](https://pjakiela.github.io/ECON370/HTE-project.html)
+[Treatment Effect Heterogeneity Project](https://pjakiela.github.io/ECON370/HTE-project.html)  
+
+[Text as Data Project](https://pjakiela.github.io/ECON370/text-project.html)  
 
 <br>
 
 ## Getting Started in R and Python: 
 
 [Getting Started in R](https://pjakiela.github.io/ECON370/getting-started-R.html)   
+
+<br>
 
 [Getting Started in Python](https://pjakiela.github.io/ECON370/getting-started-python.html)   
 
