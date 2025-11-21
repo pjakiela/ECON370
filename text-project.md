@@ -1,6 +1,10 @@
 # Text as Data Project
 
+<br>
+
 Objective: to answer a social science question using text data
+
+<br>
 
 ## Topic and Scope
 
@@ -9,6 +13,8 @@ To complete this project, your group must identify a text data source and analyz
 If you are using a pre-existing data set, your project must use at least some of the text analysis tools that we will cover in class: converting text into appropriate numeric variables (e.g. tf-idf), clustering, sentiment analysis, etc.  
 
 Your project must do **at least** one of these things, but ideally you should do more than one. That said, I would like to to find a topic that you are excited about, and I would rather relax the details about the structure of the project if that encourages you to do something innovative and ambitious.  
+
+<br>
 
 ## Some potential data sources:
 
@@ -19,8 +25,10 @@ There are five steps to completing the project:
 - Melissa Dell at Harvard has [a large data set (probably too large) of U.S.~newspaper headlines](https://dell-research-harvard.github.io/resources/headlines)
 - [SEC filings](https://www.sec.gov/edgar/search/)
 
-## Roadmap
+<br>
 
-You will make an in-class presentation that should last between 15 and 18 minutes. Your presentation should be based on slides that summarize your data and your findings.
+## The Finished Product
+
+You will make an in-class presentation that should last between 15 and 18 minutes. Your presentation should be based on slides that summarize your data and your findings, and you should also 
 
 As with the Exploratory Data Analysis project, your goal is to articulate a clear research question (or questions) and provide a compelling answer to it using data. Your classmates and I will be evaluating both the quality of your question and the quality of your answer. I am also looking for a set of slides that is well-formatted, polished, and complete - supported by replication files that transform the raw data into all of the final outputs that you present.
