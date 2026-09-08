@@ -1,5 +1,7 @@
 # Course Schedule
+
 <br>
+
 |  Date  |  Topic  |
 | ------------ | ------- |
 | 9/11 | [Introduction](ECON370-L0-intro-2025-handout.pdf) |
@@ -42,7 +44,10 @@
 | 12/7 | _Text as Data Project Group Meetings_ |
 | 12/9 | **Text as Data Project Presentations** |
 | 12/11 | **Text as Data Project Presentations** |
+
 <br>
+
 _Italics indicates no class meeting on that date._  
 **Bold indicates student presentations on that date.**
+
 
