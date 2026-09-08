@@ -13,12 +13,12 @@
 | 9/25 | Guest Speaker: Kosuke Imai |
 | 9/28 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
 | 9/30 | _No class: Exploratory Data Analysis Project Group Meetings_ |
-| 10/2 | [Lab: Numerical Approaches to OLS<sup>★</sup>](https://pjakiela.github.io/ECON370/4-ols.html) |
-| 10/5 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
+| 10/2 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html)<sup>★</sup> |
+| 10/5 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> |
 | 10/7 | **Exploratory Data Analysis Project Poster Session** |
-| 10/9 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
+| 10/9 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> |
 | 10/12 | _No class: reading period_ |
-| 10/14 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html) |
+| 10/14 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html)<sup>★</sup> |
 | 10/16 | _No class: Mountain Day_ |
 | 10/19 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/21 | [Lab: Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
@@ -48,6 +48,7 @@
 <br>
 
 _Italics indicates no class meeting on that date._  
-**Bold indicates student presentations on that date.**
+**Bold indicates student presentations on that date.**  
+<sup>★</sup> indicates subject to change depending on the date of Mountain Day.  
 
 
