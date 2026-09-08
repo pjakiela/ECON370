@@ -19,7 +19,7 @@
 | 10/9 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> |
 | 10/12 | _No class: reading period_ |
 | 10/14 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html)<sup>★</sup> |
-| 10/16 | _No class: Mountain Day_ |
+| 10/16 | _No class: Mountain Day<sup>★</sup>_ |
 | 10/19 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/21 | [Lab: Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/23 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
