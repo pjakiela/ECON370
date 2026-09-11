@@ -5,8 +5,8 @@
 |  Date  |  Topic  |
 | ------------ | ------- |
 | 9/11 | [Introduction](ECON370-L0-intro-2026-handout.pdf) |
-| 9/14 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) (2025) |
-| 9/16 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) (2025) |
+| 9/14 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
+| 9/16 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
 | 9/18 | [Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) (2025) |
 | 9/21 | [Lab: Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) (2025) |
 | 9/23 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) (2025) |
