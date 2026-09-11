@@ -25,11 +25,11 @@
 
 ## Lecture 
 
-[Slides from Lecture 1](https://pjakiela.github.io/ECON370/ECON370-L1-EDA-2025-handout.pdf)
+[Slides from Lecture 1](https://pjakiela.github.io/ECON370/ECON370-L1-EDA-2026-handout.pdf)
 
 <br>
 
-## Lab  
+## Lab (last updated 2025)  
 
 Objective:  use both R and Python to combine country-level data on GDP per capita in 2010 from the 
 [World Bank's World Development Indicators](https://databank.worldbank.org/source/world-development-indicators) with 
