@@ -8,11 +8,15 @@
 
 [An Intro to Statistical Learning](https://www.statlearning.com/):  7.6   
 
+<br>
+
 ### Additional R References:
 
 [R for Data Science](https://r4ds.hadley.nz/): [7](https://r4ds.hadley.nz/data-import) on importing data, [5](https://r4ds.hadley.nz/data-tidy) on cleaning data, [10](https://r4ds.hadley.nz/eda) on exploratatory data analysis, and [19](https://r4ds.hadley.nz/joins) on merging data  
 
 [An Intro to Statistical Learning](https://www.statlearning.com/):  7.6   
+
+<br>
 
 
 ### Additional Python References:
@@ -36,9 +40,11 @@ Objective:  use both R and Python to combine country-level data on GDP per capit
 data on educational attainment in 2010 from the [Barro-Lee Educational Attainment Data Set](http://barrolee.com/), and then 
 explore and summarize some of the variables in the combined data set.  
 
+<!-- 
 The assignment as [.R](ECON370-lab1-template.R), [.py](ECON370-lab1-template.py), and 
 a [google colab](https://colab.research.google.com/drive/12CSrU3y_4O1UvkPfyZfwCXJhHwuhSM-S?usp=sharing)    
 
 Submit your completed assignment on gradescope.  
+-->
 
 <br>
