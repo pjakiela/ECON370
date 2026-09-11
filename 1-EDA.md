@@ -33,7 +33,7 @@
 
 <br>
 
-## Lab (last updated 2025)  
+## Lab  
 
 Objective:  use both R and Python to combine country-level data on GDP per capita in 2010 from the 
 [World Bank's World Development Indicators](https://databank.worldbank.org/source/world-development-indicators) with 
