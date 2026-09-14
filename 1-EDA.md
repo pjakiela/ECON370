@@ -40,11 +40,14 @@ Objective:  use both R and Python to combine country-level data on GDP per capit
 data on educational attainment in 2010 from the [Barro-Lee Educational Attainment Data Set](http://barrolee.com/), and then 
 explore and summarize some of the variables in the combined data set.  
 
-<!-- 
-The assignment as [.R](ECON370-lab1-template.R), [.py](ECON370-lab1-template.py), and 
+You will download the Barro-Lee data directly from the web, but you most download the World Bank data as a csv file 
+that you will load from your computer directly. Your scripts should set the appropriate file path once so that 
+anyone can run your code after changing the filepath as directed at the top of the script.  
+
+The assignment as [.R](ECON370-lab1-template-2026.R), [.py](ECON370-lab1-template-2026.py), and 
 a [google colab](https://colab.research.google.com/drive/12CSrU3y_4O1UvkPfyZfwCXJhHwuhSM-S?usp=sharing)    
 
 Submit your completed assignment on gradescope.  
--->
+
 
 <br>
