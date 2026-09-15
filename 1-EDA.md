@@ -44,7 +44,7 @@ You will download the Barro-Lee data directly from the web, but you most downloa
 that you will load from your computer directly. Your scripts should set the appropriate file path once so that 
 anyone can run your code after changing the filepath as directed at the top of the script.  
 
-The assignment as [.R](ECON370-lab1-template-2026.R), [.py](ECON370-lab1-template-2026.py), and 
+The assignment as [R](ECON370-lab1-template-2026.R), [py](ECON370-lab1-template-2026.py), and 
 a [google colab](https://colab.research.google.com/drive/12CSrU3y_4O1UvkPfyZfwCXJhHwuhSM-S?usp=sharing)    
 
 Submit your completed assignment on gradescope.  
