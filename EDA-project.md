@@ -53,7 +53,7 @@ similar in terms of the variables you have analyzed.
 
 ## Elements of the Poster
 
-You will present your results in the form of a poster, together with replication files that generate your tables and figures 
+You will present your results in the form of a poster (48"X36"), together with replication files that generate your tables and figures 
 from the raw, publicly-available data sources. Your finished poster should include:  
 
 1. A statement of your research questions, your country sample, together with a brief motivation
