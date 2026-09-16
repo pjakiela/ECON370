@@ -22,7 +22,7 @@ This course provides a hands-on introduction to data science tools most relevant
 
 ## Projects:  
 
-Exploratory Data Analysis Project   
+[Exploratory Data Analysis Project](https://pjakiela.github.io/ECON370/EDA-project.html) due 10/1   
 
 Treatment Effect Heterogeneity Project  
 
