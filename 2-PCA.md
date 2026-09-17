@@ -10,7 +10,7 @@
 
 ## Lecture
 
-[Slides from Lecture 2](https://pjakiela.github.io/ECON370/ECON370-L2-PCA-2025-handout-updated.pdf)
+[Slides from Lecture 2](https://pjakiela.github.io/ECON370/ECON370-L2-PCA-2026-handout.pdf)
 
 <br>
 
