@@ -21,7 +21,7 @@ from the [World Development Indicators]()
 and the relplication files from [Alesina, Giuliano, and Nunn (2013)](https://nathannunn.sites.olt.ubc.ca/files/2022/07/nathannunn-on-the-origins.pdf) 
 to better understand country-level variation in economic and social conditions. 
 
-The lab is available in either [R](https://pjakiela.github.io/ECON370/ECON370-lab2-template-2026.R) or 
-[Python](https://pjakiela.github.io/ECON370/ECON370-lab2-template-2026.py).
+The lab is available in either [R](https://pjakiela.github.io/ECON370/ECON370-lab2-template.R) or 
+[Python](https://pjakiela.github.io/ECON370/ECON370-lab2-template.py).
 
 <br>
