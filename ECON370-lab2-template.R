@@ -43,7 +43,7 @@ lab2data <- read_csv(wdi_url)
 lab2_num <- lab2data %>%
   column_to_rownames("short_name") %>%
   select(where(is.numeric)) %>%
-  mutate(across(everything(), scale))
+  mutate(across(everything(), \(x) as.numeric(scale(x))))
 
 
 # Step 4: PCA -----------------------------------------------------------------
@@ -84,58 +84,46 @@ sort(km_results$size)
 ## 6a, 6b, 6c illustrate 3 different ways of characterizing clusters
 ## they use kmeans() outputs km_results$centers and km_results$cluster
 ## review the code to make you understand each approach
-## pick one and use it to characterize the clusters you have created
+## use these approaches to characterize the clusters you have created
 
 ## 6a. create a data frame with the centroids of the clusters ------------------
+## how do locations of the centroids differ across clusters?
 clust_centers <- round(t(km_results$centers), 3)
 print(clust_centers)
 
 ## 6b. look at the lists of countries assigned to each cluster -----------------
+## how would you characterize the countries in each cluster?
 
 clust_assignments <- as_tibble(km_results$cluster)
 clust_assignments$short_name <- names(km_results$cluster)
 clust_list <- rep(NA, num_clust)
 
 for (n in 1:num_clust) {
-  clust_num <- n
-  print(n)
   country_matches <- clust_assignments %>%
     filter(value == n)
   clust_list[n] <- str_flatten(country_matches$short_name, collapse = "; ")
 }
 print(clust_list)
 
-## 6c. identify the variables most/least associated with each cluster ---------
+## 6c. identify the variables most/least associated with each cluster ----------
+## which variables are most associated with specific clusters?
 
 vars_c1 <- (km_results$centers[1,] - colMeans(km_results$centers[-1,])) %>% sort(decreasing = TRUE)
 vars_c2 <- (km_results$centers[2,] - colMeans(km_results$centers[-2,])) %>% sort(decreasing = TRUE)
 vars_c3 <- (km_results$centers[3,] - colMeans(km_results$centers[-3,])) %>% sort(decreasing = TRUE)
 
-v1list <- names(vars_c1)
 var_importance <- tibble(Cluster1 = names(vars_c1), 
                          Cluster2 = names(vars_c2),
                          Cluster3 = names(vars_c3)) 
 print(var_importance) 
 
 
+## Step 7: make a scatter plot -------------------------------------------------
 
+## Make a scatter plot of the countries in terms of the first two PCs
+## Illustrate the clusters on the plot using different colors
+## What patterns do you observe?
 
-
-
-# compute characteristic variables per cluster for an unspecified number of clusters
-vars_list <- map(1:num_clusters, function(k) {
-  abs(kresults$centers[k, ] - colMeans(kresults$centers[-k, , drop = FALSE])) %>%
-    sort(decreasing = TRUE)
-})
-
-var_importance <- tibble(
-  !!!setNames(lapply(seq_along(vars_list), function(k) names(vars_list[[k]])),
-              paste0("Cluster", seq_len(num_clusters)))
-) %>%
-  mutate(across(everything(), ~ str_c(" & ", .))) %>%
-  unite("output_text", everything(), sep = "", remove = TRUE) %>%
-  mutate(output_text = str_c(output_text, " \\")) %>%
-  select(output_text)
-
-var_importance
-
+## Hint 1: the country scores on each PC are stored in pca_results$x
+## Hint 2: the cluster assignments are stored in km_results$cluster
+## Hint 3: both are in the same order as the rows of lab2_num

@@ -12,6 +12,7 @@ import pandas as pd # data frames and statistical analysis
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt # plots
 
 # Step 1: load ECON370-lab2-WDI-data.csv from github ---------------------------
 
@@ -69,9 +70,8 @@ lab2data = pd.read_csv(urlfile)
 ## for the highest stable number of clusters that you identify this way, 
 ##     record 5 seeds that yield a set of identical cluster sizes
 
-np.random.seed(314159)
 num_clust = 3
-km = KMeans(n_clusters=num_clust, n_init=20, random_state=8675309)
+km = KMeans(n_clusters=num_clust, n_init=20, random_state=314159)
 km.fit(lab2_num)  
 
 cluster_sizes = np.bincount(km.labels_)
@@ -85,9 +85,10 @@ print(cluster_sizes)
 ## 6a, 6b, 6c illustrate 3 different ways of characterizing clusters
 ## they use kmeans() outputs km_results$centers and km_results$cluster
 ## review the code to make you understand each approach
-## pick one and use it to characterize the clusters you have created
+## use these approaches to characterize the clusters you have created
 
 ## 6a. create a data frame with the centroids of the clusters ------------------
+## how do locations of the centroids differ across clusters?
 clust_centers = np.round(km.cluster_centers_.T, 3)  
 df_centers = pd.DataFrame(
     clust_centers,
@@ -97,6 +98,7 @@ df_centers = pd.DataFrame(
 print(df_centers)
 
 ## 6b. look at the lists of countries assigned to each cluster -----------------
+## how would you characterize the countries in each cluster?
 
 clust_assignments = pd.DataFrame({
     "value": km.labels_,
@@ -106,14 +108,14 @@ clust_assignments = pd.DataFrame({
 clust_dict = {}
 
 for n in range(1, num_clust + 1):   
-    print(n)
     country_matches = clust_assignments[clust_assignments["value"] == (n - 1)]
     members = country_matches["short_name"].tolist()
     clust_dict[f"Cluster_{n}"] = members
 
 print(clust_dict)
 
-## 6c. identify the variables most/least associated with each cluster ---------
+## 6c. identify the variables most/least associated with each cluster ----------
+## which variables are most associated with specific clusters?
 
 centers = km.cluster_centers_
 
@@ -137,9 +139,13 @@ var_importance = pd.DataFrame({
 print(var_importance)
 
 
+## Step 7: make a scatter plot -------------------------------------------------
 
+## Make a scatter plot of the countries in terms of the first two PCs
+## Illustrate the clusters on the plot using different colors
+## What patterns do you observe?
 
-
-
-
+## Hint 1: the country scores on each PC are in pca.transform(lab2_num)
+## Hint 2: the cluster assignments are in km.labels_
+## Hint 3: both are in the same order as the rows of lab2_num
 
