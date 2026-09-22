@@ -8,8 +8,8 @@
 | 9/14 | [Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
 | 9/16 | [Lab: Exploratory Data Analysis](https://pjakiela.github.io/ECON370/1-EDA.html) |
 | 9/18 | [Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html)  |
-| 9/21 | [Lab: Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) (2025) |
-| 9/23 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) (2025) |
+| 9/21 | [Lab: Unsupervised Learning](https://pjakiela.github.io/ECON370/2-PCA.html) |
+| 9/23 | [Data Visualization](https://pjakiela.github.io/ECON370/3-data-viz.html) |
 | 9/25 | Guest Speaker: [Kosuke Imai](https://imai.fas.harvard.edu/) |
 | 9/28 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) (2025) |
 | 9/30 | _No class: Exploratory Data Analysis Project Group Meetings_ |
