@@ -12,7 +12,7 @@ This course provides a hands-on introduction to data science tools most relevant
 
 ## Course Information:  
 
-[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2025-09-04.pdf)   
+[Syllabus](https://pjakiela.github.io/ECON370/ECON370-syllabus-2026-09-10.pdf)   
 
 [Schedule](https://pjakiela.github.io/ECON370/schedule.html)   
 
