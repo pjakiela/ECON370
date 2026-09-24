@@ -18,7 +18,7 @@ Python for Data Analysis: [3.2](https://wesmckinney.com/book/python-builtin#func
 
 ## Lecture 
 
-[Slides from Lecture 4](https://pjakiela.github.io/ECON370/ECON370-L4-ols-2025-handout.pdf) 
+[Slides from Lecture 4](https://pjakiela.github.io/ECON370/ECON370-L4-ols-2026-handout.pdf) 
 
 <br>
 
