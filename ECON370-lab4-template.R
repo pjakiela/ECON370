@@ -34,7 +34,7 @@ set.seed(8675309)
 
 
 ## Step 3: calculate the OLS coefficient betahat "by hand" ---------------------
-##    using the formula on slide 10
+##    using the formula on slide 11
 
 
 
@@ -45,7 +45,6 @@ set.seed(8675309)
 ## Then, define trial_betas as a sequence of beta_steps from beta_min to beta_max
 
 ## Hint 1: you can use seq() to get the set of trial betas
-## Hint 2: make trial_betas a matrix for later matrix multiplication
 
 
 
@@ -73,7 +72,7 @@ rss_results <- sapply(trial_betas, RSS)
 
 ## Step 7: find the optimal beta using numerical optimization -----------------
 
-##  Hint 1: first, define a 1x1 array of starting values of 0
+##  Hint 1: first, define a starting value
 ##  Hint 2: use optim(), note that convergence code 0 means success
 
 b0 <- rep(0, 1)
@@ -90,12 +89,12 @@ result
 ## Define a vector check that indicates whether the parameter estimates from 
 ##    numerical optimization are within 0.001 of the OLS coefficients
 
-## Step 8 should have four parts
+## Step 8 should have five parts
 ## 8a: generate the data
 ## 8b: regress Y on X and save the results
 ## 8c: define the function RSS (beta)
 ## 8d: use optim() to find the beta that minimizes the RSS
-## 8e: define the array check to check your results
+## 8e: define the vector check to check your results
 
 ## Hint 1: make sure to add a constant to X before using the RSS function
 ## Hint 2: use %*% for matrix multiplication

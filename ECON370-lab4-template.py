@@ -23,7 +23,7 @@ np.random.seed(8675309)
 ##   - generate Y = 2X + a normal error with mean = 0 and sd = 8 (so no constant)
 ##   - put X and Y in a data frame called data
 
-## Hint 1: np.randn() takes draws from a standard normal
+## Hint 1: np.random.randn() takes draws from a standard normal
 ## Hint 2:  np.random.normal() takes arguments loc and scale for any normal
 
 
@@ -37,7 +37,7 @@ np.random.seed(8675309)
 
 
 ## Step 3: calculate the OLS coefficient betahat "by hand" --------------------
-##    using the formula on slide 10
+##    using the formula on slide 11
 
 
 
@@ -47,7 +47,7 @@ np.random.seed(8675309)
 ## Then, set beta_steps = 100000
 ## Then, define trial_betas as a sequence of beta_steps from beta_min to beta_max
 
-## Hint #1: use np.linspace() to create an array with 10k trial betas
+## Hint #1: use np.linspace() to create an array with 100k trial betas
 ## Hint #2: use .reshape(-1, 1) to turn it into a column vector 
 
 
@@ -65,7 +65,7 @@ def RSS(beta):
 rss_results = np.array([RSS(beta) for beta in trial_betas])
 
 results = pd.DataFrame({
-    'trial_betas': trial_betas.flatten(),  # Convert column vector to 1D array
+    'trial_betas': trial_betas.flatten(),  
     'rss_results': rss_results
 })
 
@@ -80,8 +80,8 @@ results = pd.DataFrame({
 
 ## Step 7: find the optimal beta using numerical optimization -----------------
 
-##  Hint 1: first, define a 1x1 array of starting values of 0
-##  Hint 2: use scipi.optimize's minimize() 
+##  Hint 1: first, define a starting value
+##  Hint 2: use scipy.optimize's minimize() 
 
 b0 = np.array([0.0])
 result = minimize(RSS, b0, method='BFGS', options={'maxiter': int(1e5)})
@@ -98,12 +98,12 @@ print(f"Optimized beta: {result.x[0]}")
 ## Define a vector check that indicates whether the parameter estimates from 
 ##    numerical optimization are within 0.001 of the OLS coefficients
 
-## Step 8 should have four parts
+## Step 8 should have five parts
 ## 8a: generate the data
 ## 8b: regress Y on X and save the results
 ## 8c: define the function RSS (beta)
 ## 8d: use minimize() to find the beta that minimizes the RSS
-## 8e: define the array check to check your results
+## 8e: define the vector check to check your results
 
 ## Hint 1: add a constant to X before using the RSS function (sm.add_constant())
 ## Hint 2: use @ for matrix multiplication
