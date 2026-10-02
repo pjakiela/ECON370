@@ -13,8 +13,8 @@
 | 9/25 | Guest Speaker: [Kosuke Imai](https://imai.fas.harvard.edu/) |
 | 9/28 | [Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
 | 9/30 | _No class: Exploratory Data Analysis Project Group Meetings_ |
-| 10/2 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html)<sup>★</sup> |
-| 10/5 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> (2025) |
+| 10/2 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
+| 10/5 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) (2025) |
 | 10/7 | **Exploratory Data Analysis Project Poster Session** |
 | 10/9 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> (2025) |
 | 10/12 | _No class: reading period_ |
