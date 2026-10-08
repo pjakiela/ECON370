@@ -13,7 +13,7 @@ from sklearn.preprocessing import PolynomialFeatures
 import matplotlib.pyplot as plt
 
 
-# step 0 : load data, generate unique ID variable -----------------------------
+# step 0 : load data ----------------------------------------------------------
 
 url = 'https://raw.githubusercontent.com/pjakiela/ECON370/refs/heads/gh-pages/ECON370-lab5-data.csv'
 
@@ -22,8 +22,6 @@ url = 'https://raw.githubusercontent.com/pjakiela/ECON370/refs/heads/gh-pages/EC
 
 ## define datasize as the number of rows in your data set
 
-
-## add a row data_id that is indicates the row number in the original data set
 
 
 # step 1: fit the model with 2 polynomial terms, calculate test and train MSE -
@@ -71,7 +69,7 @@ print("Check MSE should equal training data MSE: ", round(check_mse, 4))
 ## Hint: use np.full()
 
 
-## 2c: extend the code for the loop below to calculate train, test, and check MSE
+## 2c: extend the loop below to calculate train, test, and check MSE
 
 for i in range(1, max_order + 1):
     

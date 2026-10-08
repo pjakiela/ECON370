@@ -9,17 +9,13 @@
 library(tidyverse)
 
 
-# step 0 : load data, generate unique ID variable ------------------------------
+# step 0 : load data -----------------------------------------------------------
 
 urlfile <- 'https://raw.githubusercontent.com/pjakiela/ECON370/refs/heads/gh-pages/ECON370-lab5-data.csv'
 
 
 ## define datasize as the number of rows in your data set
 
-
-## add a row data_id that is indicates the row number in the original data set
-
-## Hint: use seq()
 
 
 # step 1: fit the model with 2 polynomial terms, calculate test and train MSE --
@@ -57,13 +53,10 @@ print(paste("Check MSE should equal training data MSE:", round(check_mse, 4)))
 ## write a loop that calculates test, train, and check mse for different...
 ##    numbers of polynomial terms, from 1 through 8
 
-# define max_order, the maximum number of polynomial terms to consider (set it to 8)
+## 2a: define max_order, the number of polynomial terms to consider (set it to 8)
 
 
-# define num_folds (we'll use 10)
-
-
-## 2b: create 3 blank max_orderX1 vectors train_mse, test_mse, and check_mse 
+## 2b: create 3 blank max_order vectors train_mse, test_mse, and check_mse 
 
 
 
@@ -98,8 +91,7 @@ print(results)
 ## Hint: use rep()
 
 
-# create a poly_id (for the number of polynomial terms used) that is a sequence from 1 to max_order 
-#   repeated num_fold times in a column vector
+## 3c: create a poly_id vector - the sequence 1:max_order repeated num_folds times
 
 ## Hint: use seq() and then rep()
 
