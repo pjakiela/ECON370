@@ -16,10 +16,10 @@
 | 10/2 | [Lab: Numerical Approaches to OLS](https://pjakiela.github.io/ECON370/4-ols.html) |
 | 10/5 | [Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) (2025) |
 | 10/7 | **Exploratory Data Analysis Project Poster Session** |
-| 10/9 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html)<sup>★</sup> (2025) |
+| 10/9 | _No class: Mountain Day_|
 | 10/12 | _No class: reading period_ |
-| 10/14 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html)<sup>★</sup> (2025) |
-| 10/16 | _No class: Mountain Day<sup>★</sup>_ |
+| 10/14 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
+| 10/16 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html)<sup>★</sup> (2025)  |
 | 10/19 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) (2025) |
 | 10/21 | [Lab: Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) (2025) |
 | 10/23 | [Post Double Selection Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) (2025) |
