@@ -13,16 +13,10 @@ by Jacobus Cilliers, Nour Elashmawy, and David McKenzie
 
 ## Lecture 
 
-[Slides from Lecture 7](https://pjakiela.github.io/ECON370/L7-lasso-2025-handout.pdf)   
+[Slides from Lecture 7](https://pjakiela.github.io/ECON370/L7-lasso-2026-handout.pdf)   
 
 <br>
 
 ## Lab
 
-The lab is avaiable in [R](ECON370-lab7-template-2025.R) and [Python](ECON370-lab7-template-2025.py).
-
 <br>
-
-## Optional Extra Lab
-
-This is a totally optional lab that introduces [R](ECON370-extra-lab7-2025.R) and [Python](ECON370-extra-lab7-2025.py) tools for regularized regression.  
