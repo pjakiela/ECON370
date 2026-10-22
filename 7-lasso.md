@@ -19,6 +19,6 @@ by Jacobus Cilliers, Nour Elashmawy, and David McKenzie
 
 ## Lab
 
-In the lab can be completed in [R](ECON370-lab7-template-2026.R) or [Python](ECON370-lab7-template-2026.R).  
+In the lab can be completed in [R](ECON370-lab7-template-2026.R) or [Python](ECON370-lab7-template-2026.py).  
 
 <br>
