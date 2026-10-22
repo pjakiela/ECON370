@@ -1,4 +1,4 @@
-## ECON 370 LAB 7:  LASSO AND PDS LASSO
+## ECON 370 LAB 7:  LASSO
 ## NAME:  
 ## DATE:  
 
