@@ -1,6 +1,6 @@
-# Treatment Effect Heterogeneity Project
+# RCT Project
 
-Objective: to estimate the extent of treatment effect heterogeneity in a randomized trial
+Objective: to use baseline covariates to increase statistical power and estimate the extent of treatment effect heterogeneity in a randomized trial
 
 ## Topic and Scope
 
