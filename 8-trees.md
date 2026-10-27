@@ -16,4 +16,6 @@
 
 ## Lab
 
+In the lab, we build a regression tree and a random forest to predict early literacy. The [R](ECON370-lab8-template-2026.R) and 
+[Python](ECON370-lab8-template-2026.py) templates are available here.
 
