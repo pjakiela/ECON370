@@ -20,11 +20,11 @@
 | 10/12 | _No class: reading period_ |
 | 10/14 | [Lab: Cross-Validation](https://pjakiela.github.io/ECON370/5-CV.html) |
 | 10/16 | [Causal Inference, Potential Outcomes, and RCTs](https://pjakiela.github.io/ECON370/6-RCTs.html)  |
-| 10/19 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) (2025) |
+| 10/19 | [Subset Selection, Regularization, and Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/21 | _No class_ |
 | 10/23 | [Lab: Lasso](https://pjakiela.github.io/ECON370/7-lasso.html) |
 | 10/26 | [Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
-| 10/28 | [Lab: Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) (2025) |
+| 10/28 | [Lab: Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
 | 10/30 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/2 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/4 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html) (2025) |
