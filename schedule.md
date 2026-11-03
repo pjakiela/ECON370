@@ -27,7 +27,7 @@
 | 10/28 | [Lab: Random Forests](https://pjakiela.github.io/ECON370/8-trees.html) |
 | 10/30 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/2 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
-| 11/4 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html) (2025) |
+| 11/4 | [Causal Forests, Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html) |
 | 11/6 | [Lab: Treatment Effect Heterogeneity](https://pjakiela.github.io/ECON370/9-hte.html) (2025) |
 | 11/9 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/11 | **Treatment Effect Heterogeneity Project Presentations** |
