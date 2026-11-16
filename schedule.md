@@ -33,8 +33,8 @@
 | 11/11 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/13 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/16 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html) |
-| 11/18 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html) (2025) | 
-| 11/20 | TA Workshop on Web Scraping |
+| 11/18 | TA Workshop on Web Scraping | 
+| 11/20 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html) (2025) |
 | 11/23 | _No class: Text as Data Project Group Meetings_ |
 | 11/25 | _Thanksgiving Break_ |
 | 11/27 | _Thanksgiving Break_ |
