@@ -32,9 +32,9 @@
 | 11/9 | _No class: Treatment Effect Heterogeneity Project Group Meetings_ |
 | 11/11 | **Treatment Effect Heterogeneity Project Presentations** |
 | 11/13 | **Treatment Effect Heterogeneity Project Presentations** |
-| 11/16 | [Lab: Web Scraping, Regular Expressions](https://pjakiela.github.io/ECON370/10-regex.html) (2025) |
-| 11/18 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html) (2025) |
-| 11/20 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/11-text.html) (2025) |
+| 11/16 | [Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html) |
+| 11/18 | [Lab: Word Frequencies, tf-idf](https://pjakiela.github.io/ECON370/10-text.html) (2025) | 
+| 11/20 | TA Workshop on Web Scraping |
 | 11/23 | _No class: Text as Data Project Group Meetings_ |
 | 11/25 | _Thanksgiving Break_ |
 | 11/27 | _Thanksgiving Break_ |
