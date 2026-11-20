@@ -20,5 +20,5 @@
 
 ## Lab 
 
-
+The [R template for the lab is here](ECON370-lab-10-template-2026.R).
 
